@@ -1,0 +1,150 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ACCLapSession",
+  "type": "object",
+  "properties": {
+    "meta": {
+      "type": "object",
+      "properties": {
+        "event": {
+          "type": "string",
+          "description": "YYYY-MM-DD_track_event"
+        },
+        "track": {
+          "type": "string"
+        },
+        "car": {
+          "type": "string"
+        },
+        "game_version": {
+          "type": "string"
+        },
+        "condition": {
+          "type": "object",
+          "properties": {
+            "rubber": {
+              "type": "string",
+              "enum": [
+                "Green",
+                "Fast",
+                "Optimum",
+                "Greasy",
+                "Dusty"
+              ]
+            },
+            "weather": {
+              "type": "string"
+            },
+            "air_temp_c": {
+              "type": "number"
+            },
+            "track_temp_c": {
+              "type": "number"
+            },
+            "time_of_day": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "air_temp_c",
+            "track_temp_c"
+          ]
+        },
+        "traffic": {
+          "type": "string",
+          "description": "none/low/medium/high"
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "event",
+        "track",
+        "car"
+      ]
+    },
+    "stints": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "stint_no": {
+            "type": "integer"
+          },
+          "tyre_set": {
+            "type": "integer"
+          },
+          "fuel_start_l": {
+            "type": "number"
+          },
+          "fuel_end_l": {
+            "type": "number"
+          },
+          "pressures_cold": {
+            "type": "object",
+            "properties": {
+              "fl": {
+                "type": "number"
+              },
+              "fr": {
+                "type": "number"
+              },
+              "rl": {
+                "type": "number"
+              },
+              "rr": {
+                "type": "number"
+              }
+            }
+          },
+          "laps": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "lap_no": {
+                  "type": "integer"
+                },
+                "valid": {
+                  "type": "boolean"
+                },
+                "lap_time_ms": {
+                  "type": "integer"
+                },
+                "s1_ms": {
+                  "type": "integer"
+                },
+                "s2_ms": {
+                  "type": "integer"
+                },
+                "s3_ms": {
+                  "type": "integer"
+                },
+                "cuts": {
+                  "type": "integer"
+                },
+                "notes": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "lap_no",
+                "valid",
+                "lap_time_ms"
+              ]
+            }
+          }
+        },
+        "required": [
+          "stint_no",
+          "laps"
+        ]
+      }
+    }
+  },
+  "required": [
+    "meta",
+    "stints"
+  ]
+}

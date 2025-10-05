@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "event": "<YYYY-MM-DD_track_event>",
+    "track": "<track?>",
+    "car": "<car?>",
+    "game_version": "ACC",
+    "condition": {
+      "rubber": "Optimum",
+      "weather": "Dry",
+      "air_temp_c": null,
+      "track_temp_c": null,
+      "time_of_day": "21:02"
+    },
+    "traffic": "unknown",
+    "notes": ""
+  },
+  "stints": [
+    {
+      "stint_no": 1,
+      "tyre_set": 1,
+      "fuel_start_l": 48.79,
+      "fuel_end_l": 46.09,
+      "pressures_cold": null,
+      "laps": [
+        {
+          "lap_no": 1,
+          "valid": false,
+          "lap_time_ms": 90457,
+          "s1_ms": 30842,
+          "s2_ms": 29842,
+          "s3_ms": 29772,
+          "cuts": 0,
+          "notes": "Regular"
+        },
+        {
+          "lap_no": 2,
+          "valid": true,
+          "lap_time_ms": 89490,
+          "s1_ms": 30287,
+          "s2_ms": 29532,
+          "s3_ms": 29670,
+          "cuts": 0,
+          "notes": "Regular"
+        }
+      ]
+    }
+  ]
+}
