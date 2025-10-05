@@ -1,0 +1,16 @@
+# 🎥 YouTube Links – Circuito de Barcelona-Catalunya
+
+Este arquivo lista os vídeos de referência utilizados para estudo do traçado de **Barcelona-Catalunya** no **Assetto Corsa Competizione**, com links diretos e associação às transcrições disponíveis.
+
+---
+
+| Título do Vídeo | Canal | Link | Tipo | Transcrição Associada |
+|------------------|--------|------|------|------------------------|
+| **How to be Fast at Barcelona on Assetto Corsa Competizione – Track Guide** | **Driver61** | [🎥 Assistir no YouTube](https://www.youtube.com/watch?v=p3HoDgRfLSY) | Guia de Pilotagem | `transcripts/driver61_barcelona_track_guide.json` *(ou .srt/.tsv conforme arquivo)* |
+| **Barcelona-Catalunya In-Depth Track Guide** | **Yorkie** | [🎥 Assistir no YouTube](https://www.youtube.com/watch?v=eeswpnmCcuM) | Guia Detalhado | `transcripts/yorkie_barcelona_in_depth.json` *(transcrição completa usada para o curva-a-curva)* |
+
+---
+
+🧭 **Observação:**  
+- Os nomes de arquivo das transcrições podem ser ajustados para manter consistência (`canal_nome_curto.json`).  
+- Esse `youtube_links.md` serve como **índice de fontes**, permitindo rastreabilidade entre **vídeo**, **transcrição**, e **relatório**.
