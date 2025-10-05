@@ -9,7 +9,7 @@ Repositório para organizar **treinos diários** e **relatórios** das corridas 
 ├── events/
 │   └── YYYY/
 │       └── YYYY-MM-DD_track_event/
-│           ├── raw/              # Dados brutos (JSON/CSV) por sessão
+│           ├── data/              # Dados brutos (JSON/CSV) por sessão
 │           ├── processed/        # Agregações/outputs (CSV)
 │           └── reports/          # Relatórios em Markdown
 ├── car_setups/                    # Setups por carro/pista (json/md/png)
