@@ -16,7 +16,7 @@ __pycache__/
 *.log
 
 # Images & binaries (use LFS)
-*.png
+# *.png
 *.jpg
 *.jpeg
 *.mp4
