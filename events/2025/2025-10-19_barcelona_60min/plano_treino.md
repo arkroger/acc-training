@@ -10,6 +10,10 @@
 - **Troca de pneus:** Opcional (sem troca = 25s, com troca = 30s)  
 - **Total de dias de treino:** 6  
 - **Duração de cada treino:** 50 minutos  
+- **Referência de volta**: 1:44.487  
+  - S1: 00:29.374  
+  - S2: 00:40.164  
+  - S3: 00:34.949 
 
 ---
 
