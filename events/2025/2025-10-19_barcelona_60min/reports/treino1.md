@@ -33,11 +33,14 @@
 ---
 
 ## Avaliação Setorial (válidas)
-| Setor | Melhor | Média | Observações |
-|------|-------:|------:|-------------|
-| **S1** | **0:29.737** | **0:29.963** | Estabilidade na freada T1 e direção em T3 |
-| **S2** | **0:40.870** | **0:41.290** | Tração em curvas de média |
-| **S3** | **0:35.512** | **0:35.826** | Chicane/última curva sensíveis ao aquecimento |
+| Setor | Melhor | Média | Gap p/ Ref. | Observações |
+|------|-------:|------:|------------:|-------------|
+| **S1** | **0:29.737** | **0:29.914** | **+0.540s** | Estabilidade na freada T1 e direção em T3 |
+| **S2** | **0:40.870** | **0:41.252** | **+1.088s** | Tração em curvas de média – **maior gap** |
+| **S3** | **0:35.512** | **0:35.756** | **+0.807s** | Chicane/última curva sensíveis ao aquecimento |
+
+> **Referência:** 1:44.487 (S1: 29.374 / S2: 40.164 / S3: 34.949)
+> **Gap total:** +1.865s (+1.8%)
 
 ---
 
@@ -60,10 +63,12 @@ O **bloco 2** planejado (testes A/B) **não foi realizado** neste dia.
 O foco foi **adaptação à pista e verificação de comportamento inicial do carro**.
 
 ### Conclusões gerais
-- O carro apresentou **baixa aderência inicial**, mas melhorou nas voltas intermediárias.  
-- **Desgaste uniforme**, com leve tendência de aquecimento no **traseiro esquerdo**.  
-- Pressões quentes **dentro da janela ideal ACC (26.0 – 27.0 PSI)**.  
-- **Próximo treino:** repetir stint com ajustes finos de pressão (−0.1 a −0.2 PSI nas rodas mais quentes).
+- O carro apresentou **baixa aderência inicial**, mas melhorou nas voltas intermediárias.
+- **Desgaste uniforme**, com leve tendência de aquecimento no **traseiro esquerdo**.
+- Pressões quentes **dentro da janela ideal ACC (26.0 – 27.0 PSI)**.
+- **Próximo treino (Dia 2):** Foco no **Setor 2** (maior gap: -1.088s) – trabalhar fluidez e confiança nas curvas médias/rápidas (T4-T9).
+  - Ajustar pressões finas (−0.1 a −0.2 PSI nas rodas mais quentes)
+  - Meta: S2 < 41.0s / Volta total < 1:45.5
 
 ---
 

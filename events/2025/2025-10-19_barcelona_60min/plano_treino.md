@@ -28,12 +28,14 @@
 ## Estrutura de Treinos
 | Dia | Foco Principal | Objetivo Técnico |
 |-----|----------------|------------------|
-| 1 | Reconhecimento + baseline | Mapear marchas, traçado e tempo base |
-| 2 | Setor 1 | Ganhar precisão em T1–T3 |
-| 3 | Setor 2 | Melhorar fluidez e tração média |
-| 4 | Setor 3 | Aumentar estabilidade em chicane e última curva |
+| 1 | ✅ Reconhecimento + baseline | Mapear marchas, traçado e tempo base |
+| 2 | **Setor 2** | Melhorar fluidez e tração média (maior gap: -1.088s) |
+| 3 | **Setor 3** | Aumentar estabilidade em chicane e última curva (gap: -0.807s) |
+| 4 | Setor 1 | Ganhar precisão em T1–T3 (gap: -0.540s) |
 | 5 | Simulação corrida (tráfego se possível) | Ritmo longo e pit stop sem troca |
 | 6 | Simulação final (A/B Test) | Comparar stint com e sem troca |
+
+> **📝 Observação:** Ordem ajustada após Treino 1 para priorizar setores com maior diferença para a referência.
 
 ---
 
