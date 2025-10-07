@@ -29,13 +29,16 @@
 | Dia | Foco Principal | Objetivo Técnico |
 |-----|----------------|------------------|
 | 1 | ✅ Reconhecimento + baseline | Mapear marchas, traçado e tempo base |
-| 2 | **Setor 2** | Melhorar fluidez e tração média (maior gap: -1.088s) |
-| 3 | **Setor 3** | Aumentar estabilidade em chicane e última curva (gap: -0.807s) |
-| 4 | Setor 1 | Ganhar precisão em T1–T3 (gap: -0.540s) |
-| 5 | Simulação corrida (tráfego se possível) | Ritmo longo e pit stop sem troca |
-| 6 | Simulação final (A/B Test) | Comparar stint com e sem troca |
+| 2 | ✅ **Ajustes de setup** | Resolver desbalanceamento de freios e aderência |
+| 3 | **Setup final** | Testar FRI3dolf e consolidar configuração ideal |
+| 4 | **Setor 2** | Melhorar fluidez e tração média (gap atual: +0.646s) |
+| 5 | **Setor 3** | Aumentar estabilidade em chicane e última curva (gap: +0.356s) |
+| 6 | Setor 1 ou Simulação final | Ajustar T1-T3 (gap: +0.495s) ou testar estratégia de corrida |
 
-> **📝 Observação:** Ordem ajustada após Treino 1 para priorizar setores com maior diferença para a referência.
+> **📝 Observações:**
+> - Dias 2-3 focados em setup após identificar problemas de aderência no Treino 1
+> - Ordem setorial ajustada conforme gaps pós-setup (Treino 2)
+> - Dia 6 flexível: se setores estiverem OK, fazer simulação de corrida
 
 ---
 
