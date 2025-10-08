@@ -13,7 +13,7 @@
 |----:|:-------------|:------------|:------------|:---------------------|:------------|
 | 1 | **1:46.352** | **+1.865s** | **1:47.054** | **11 / 15** (73%) | Baseline – aderência baixa no fim do stint |
 | 2 | **1:45.512** | **+1.025s** | **1:45.983** | **15 / 20** (75%) | Ajustes de setup – resolveu desbalanceamento de freios |
-| 3 |  |  |  |  |  |
+| 3 | **1:45.230** | **+0.743s** | **1:46.157** | **24 / 27** (89%) | Setup final definido – RF aquecendo corretamente |
 | 4 |  |  |  |  |  |
 | 5 |  |  |  |  |  |
 | 6 |  |  |  |  |  |
@@ -27,7 +27,7 @@
 |----:|:------------------|:------------------|:------------------|:------------|
 | 1 | 29.737 / 29.914<br>*(+0.540s)* | 40.870 / 41.252<br>**(+1.088s)** | 35.512 / 35.756<br>*(+0.807s)* | Pressões 26.0–27.0 PSI; RL aquecendo mais |
 | 2 | 29.660 / 29.869<br>*(+0.495s)* | 40.607 / 40.810<br>*(+0.646s)* | 35.245 / 35.305<br>*(+0.356s)* | Brake system ajustado; temperaturas balanceadas |
-| 3 |  |  |  |  |
+| 3 | 29.560 / 29.783<br>*(+0.186s)* | 40.547 / 40.995<br>*(+0.383s)* | 35.122 / 35.378<br>*(+0.173s)* | Setup Friedolf otimizado; RF 82°C ✅ |
 | 4 |  |  |  |  |
 | 5 |  |  |  |  |
 | 6 |  |  |  |  |
@@ -66,8 +66,25 @@
   - Rear ARB: 3→4
 - **Próximo:** Consolidar setup final - testar FRI3dolf vs setup atual e definir configuração para treinos setoriais
 
-### Dia 3 – Setup Final
-*(a preencher)*
+### Dia 3 – Setup Final ✅
+- **Foco:** Consolidar setup final - comparar 21_25_ajuste vs Friedolf e definir configuração
+- **Resultado:** Melhor 1:45.230 / Média 1:46.157 (+0.743s da ref.)
+- **Evolução:** **-0.282s** vs Treino 2 (-0.26%)
+- **Pontos fortes:**
+  - Melhoria em **todos os setores** (S1: -0.100s, S2: -0.060s, S3: -0.123s)
+  - **Problema RF resolvido:** 59-67°C → 78-82°C ✅
+  - 4 configurações testadas sistematicamente
+  - 89% voltas válidas (24/27)
+  - Setup otimizado com 100% válidas (7/7) no stint final
+- **Pontos fracos:**
+  - Temperatura de pista variável (25-31°C) dificultou comparação
+  - S2 ainda com maior gap (+0.383s vs referência)
+- **Setup final definido:** Base Friedolf otimizada
+  - Toe dianteiro: -0.15° → -0.20°
+  - Pressão RF: 25.8 → 25.0 pit
+  - Brake duct dianteiro: 3 → 2
+  - ARB traseiro: 1 → 2
+- **Próximo:** Foco no Setor 2 (T4-T9) - maior gap remanescente (+0.383s)
 
 ### Dia 4 – Setor 2 (T4-T9)
 *(a preencher)*
