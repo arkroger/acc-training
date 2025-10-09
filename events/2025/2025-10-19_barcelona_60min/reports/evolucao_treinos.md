@@ -14,7 +14,7 @@
 | 1 | **1:46.352** | **+1.865s** | **1:47.054** | **11 / 15** (73%) | Baseline – aderência baixa no fim do stint |
 | 2 | **1:45.512** | **+1.025s** | **1:45.983** | **15 / 20** (75%) | Ajustes de setup – resolveu desbalanceamento de freios |
 | 3 | **1:45.230** | **+0.743s** | **1:46.157** | **24 / 27** (89%) | Setup final definido – RF aquecendo corretamente |
-| 4 |  |  |  |  |  |
+| 4 | **1:45.097** | **+0.610s** | **1:45.514** | **14 / 20** (70%) | Melhor volta da semana – todos setores melhoraram |
 | 5 |  |  |  |  |  |
 | 6 |  |  |  |  |  |
 
@@ -28,7 +28,7 @@
 | 1 | 29.737 / 29.914<br>*(+0.540s)* | 40.870 / 41.252<br>**(+1.088s)** | 35.512 / 35.756<br>*(+0.807s)* | Pressões 26.0–27.0 PSI; RL aquecendo mais |
 | 2 | 29.660 / 29.869<br>*(+0.495s)* | 40.607 / 40.810<br>*(+0.646s)* | 35.245 / 35.305<br>*(+0.356s)* | Brake system ajustado; temperaturas balanceadas |
 | 3 | 29.560 / 29.783<br>*(+0.186s)* | 40.547 / 40.995<br>*(+0.383s)* | 35.122 / 35.378<br>*(+0.173s)* | Setup Friedolf otimizado; RF 82°C ✅ |
-| 4 |  |  |  |  |
+| 4 | 29.477 / 29.657<br>*(+0.103s)* | 40.500 / 40.660<br>*(+0.336s)* | 34.970 / 35.151<br>**(+0.021s)** | RF banda fria (57-70°C); FL/LR quentes (97°C) |
 | 5 |  |  |  |  |
 | 6 |  |  |  |  |
 
@@ -86,11 +86,32 @@
   - ARB traseiro: 1 → 2
 - **Próximo:** Foco no Setor 2 (T4-T9) - maior gap remanescente (+0.383s)
 
-### Dia 4 – Setor 2 (T4-T9)
+### Dia 4 – Validação Setup + Setor 2 ✅
+- **Foco planejado:** Validar setup otimizado + trabalhar Setor 2 (T5-T9)
+- **Foco real:** ✅ **Setup validado + melhoria em todos setores**
+- **Resultado:** Melhor 1:45.097 / Média 1:45.514 (+0.610s da ref.)
+- **Evolução:** **-0.133s** vs Treino 3 (-0.12%)
+- **Estrutura:** 2 blocos (Validação 9 laps + Trabalho S2 11 laps)
+- **Pontos fortes:**
+  - **🏆 Melhor volta da semana:** 1:45.097 (nova referência pessoal!)
+  - **Todos os setores melhoraram** vs T3 (S1: -0.083s, S2: -0.047s, S3: -0.152s)
+  - **S3 quase perfeito:** 34.970 (+0.021s da ref. - 99.4% do alvo!)
+  - Setup validado com feeling 7.5/10
+  - Bloco 1 com 89% válidas (alta consistência)
+  - S2 melhorou conforme objetivo
+- **Pontos fracos:**
+  - **RF banda fria persistente:** 57-70°C (interno OK 81°C, mas não transfere para superfície)
+  - **FL/LR superaquecem:** até 97°C em pista >28°C (risco degradação)
+  - Temperatura de pista subiu +3°C entre blocos (25°C → 28.5°C)
+  - Bloco 2 com 55% válidas (esperado durante trabalho focado)
+- **Teste adicional:** TC 2 no lap 14 (resultado comparável mas não superior a TC 3)
+- **Ajustes propostos T5:**
+  - Pressões: FL 24.8→25.2, RF 25.0→24.6, LR 24.5→24.9 (resolver térmicos)
+  - Manter resto do setup
+- **Próximo:** **Setor 1 (Bloco 1) + Setor 3 (Bloco 2)** - refinar gaps menores antes de voltar ao S2
+
+### Dia 5 – Setor 1 + Setor 3
 *(a preencher)*
 
-### Dia 5 – Setor 3 (T10-T16)
+### Dia 6 – Stint Longo (Degradação)
 *(a preencher)*
-
-### Dia 6 – Setor 1 ou Simulação Final
-*(a preencher)*  
