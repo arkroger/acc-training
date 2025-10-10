@@ -1,0 +1,276 @@
+{
+  "meta": {
+    "event": "<YYYY-MM-DD_track_event>",
+    "track": "<track?>",
+    "car": "<car?>",
+    "game_version": "ACC",
+    "condition": {
+      "rubber": "Optimum",
+      "weather": "NO RAIN",
+      "air_temp_c": 21.877254486083984,
+      "track_temp_c": 25.152847290039062,
+      "time_of_day": "10:03"
+    },
+    "traffic": "unknown",
+    "notes": ""
+  },
+  "stints": [
+    {
+      "stint_no": 1,
+      "tyre_set": 1,
+      "fuel_start_l": null,
+      "fuel_end_l": null,
+      "pressures_cold": null,
+      "laps": [
+        {
+          "lap_no": 1,
+          "valid": false,
+          "lap_time_ms": 106007,
+          "s1_ms": 29875,
+          "s2_ms": 40892,
+          "s3_ms": 35240,
+          "cuts": 0,
+          "notes": "Regular"
+        },
+        {
+          "lap_no": 2,
+          "valid": true,
+          "lap_time_ms": 105755,
+          "s1_ms": 29767,
+          "s2_ms": 40807,
+          "s3_ms": 35180,
+          "cuts": 0,
+          "notes": "Regular"
+        },
+        {
+          "lap_no": 3,
+          "valid": true,
+          "lap_time_ms": 105112,
+          "s1_ms": 29580,
+          "s2_ms": 40525,
+          "s3_ms": 35007,
+          "cuts": 0,
+          "notes": "Regular"
+        },
+        {
+          "lap_no": 4,
+          "valid": true,
+          "lap_time_ms": 105460,
+          "s1_ms": 29535,
+          "s2_ms": 40727,
+          "s3_ms": 35197,
+          "cuts": 0,
+          "notes": "Regular"
+        },
+        {
+          "lap_no": 5,
+          "valid": true,
+          "lap_time_ms": 105202,
+          "s1_ms": 29647,
+          "s2_ms": 40455,
+          "s3_ms": 35100,
+          "cuts": 0,
+          "notes": "Regular"
+        },
+        {
+          "lap_no": 6,
+          "valid": true,
+          "lap_time_ms": 105225,
+          "s1_ms": 29730,
+          "s2_ms": 40372,
+          "s3_ms": 35122,
+          "cuts": 0,
+          "notes": "Regular"
+        },
+        {
+          "lap_no": 7,
+          "valid": true,
+          "lap_time_ms": 105895,
+          "s1_ms": 29625,
+          "s2_ms": 40765,
+          "s3_ms": 35505,
+          "cuts": 0,
+          "notes": "Regular"
+        },
+        {
+          "lap_no": 8,
+          "valid": true,
+          "lap_time_ms": 105707,
+          "s1_ms": 29655,
+          "s2_ms": 40572,
+          "s3_ms": 35480,
+          "cuts": 0,
+          "notes": "Regular"
+        },
+        {
+          "lap_no": 9,
+          "valid": false,
+          "lap_time_ms": 106212,
+          "s1_ms": 29585,
+          "s2_ms": 41062,
+          "s3_ms": 35565,
+          "cuts": 0,
+          "notes": "Regular"
+        },
+        {
+          "lap_no": 10,
+          "valid": false,
+          "lap_time_ms": 105950,
+          "s1_ms": 29665,
+          "s2_ms": 41047,
+          "s3_ms": 35237,
+          "cuts": 0,
+          "notes": "Regular"
+        },
+        {
+          "lap_no": 11,
+          "valid": true,
+          "lap_time_ms": 114237,
+          "s1_ms": 29620,
+          "s2_ms": 41355,
+          "s3_ms": 43262,
+          "cuts": 0,
+          "notes": "Inlap"
+        }
+      ]
+    },
+    {
+      "stint_no": 2,
+      "tyre_set": 1,
+      "fuel_start_l": null,
+      "fuel_end_l": null,
+      "pressures_cold": null,
+      "laps": [
+        {
+          "lap_no": 12,
+          "valid": true,
+          "lap_time_ms": 105835,
+          "s1_ms": 29895,
+          "s2_ms": 40595,
+          "s3_ms": 35345,
+          "cuts": 0,
+          "notes": "Regular"
+        }
+      ]
+    },
+    {
+      "stint_no": 2,
+      "tyre_set": 2,
+      "fuel_start_l": null,
+      "fuel_end_l": null,
+      "pressures_cold": null,
+      "laps": [
+        {
+          "lap_no": 13,
+          "valid": false,
+          "lap_time_ms": 105232,
+          "s1_ms": 29602,
+          "s2_ms": 40607,
+          "s3_ms": 35022,
+          "cuts": 0,
+          "notes": "Regular"
+        },
+        {
+          "lap_no": 14,
+          "valid": true,
+          "lap_time_ms": 105850,
+          "s1_ms": 29635,
+          "s2_ms": 40847,
+          "s3_ms": 35367,
+          "cuts": 0,
+          "notes": "Regular"
+        },
+        {
+          "lap_no": 15,
+          "valid": true,
+          "lap_time_ms": 106067,
+          "s1_ms": 29732,
+          "s2_ms": 40852,
+          "s3_ms": 35482,
+          "cuts": 0,
+          "notes": "Regular"
+        },
+        {
+          "lap_no": 16,
+          "valid": true,
+          "lap_time_ms": 105657,
+          "s1_ms": 29760,
+          "s2_ms": 40782,
+          "s3_ms": 35115,
+          "cuts": 0,
+          "notes": "Regular"
+        },
+        {
+          "lap_no": 17,
+          "valid": true,
+          "lap_time_ms": 105860,
+          "s1_ms": 29697,
+          "s2_ms": 40762,
+          "s3_ms": 35400,
+          "cuts": 0,
+          "notes": "Regular"
+        },
+        {
+          "lap_no": 18,
+          "valid": true,
+          "lap_time_ms": 106137,
+          "s1_ms": 29647,
+          "s2_ms": 40650,
+          "s3_ms": 35840,
+          "cuts": 0,
+          "notes": "Regular"
+        },
+        {
+          "lap_no": 19,
+          "valid": true,
+          "lap_time_ms": 106032,
+          "s1_ms": 29642,
+          "s2_ms": 40925,
+          "s3_ms": 35465,
+          "cuts": 0,
+          "notes": "Regular"
+        },
+        {
+          "lap_no": 20,
+          "valid": true,
+          "lap_time_ms": 105895,
+          "s1_ms": 29697,
+          "s2_ms": 40770,
+          "s3_ms": 35427,
+          "cuts": 0,
+          "notes": "Regular"
+        },
+        {
+          "lap_no": 21,
+          "valid": true,
+          "lap_time_ms": 105617,
+          "s1_ms": 29725,
+          "s2_ms": 40700,
+          "s3_ms": 35192,
+          "cuts": 0,
+          "notes": "Regular"
+        },
+        {
+          "lap_no": 22,
+          "valid": true,
+          "lap_time_ms": 105852,
+          "s1_ms": 29775,
+          "s2_ms": 40712,
+          "s3_ms": 35365,
+          "cuts": 0,
+          "notes": "Regular"
+        },
+        {
+          "lap_no": 23,
+          "valid": true,
+          "lap_time_ms": 105837,
+          "s1_ms": 29840,
+          "s2_ms": 40470,
+          "s3_ms": 35527,
+          "cuts": 0,
+          "notes": "Regular"
+        }
+      ]
+    }
+  ]
+}

@@ -15,7 +15,7 @@
 | 2 | **1:45.512** | **+1.025s** | **1:45.983** | **15 / 20** (75%) | Ajustes de setup – resolveu desbalanceamento de freios |
 | 3 | **1:45.230** | **+0.743s** | **1:46.157** | **24 / 27** (89%) | Setup final definido – RF aquecendo corretamente |
 | 4 | **1:45.097** | **+0.610s** | **1:45.514** | **14 / 20** (70%) | Melhor volta da semana – todos setores melhoraram |
-| 5 |  |  |  |  |  |
+| 5 | **1:45.112** | **+0.625s** | **1:45.677** | **20 / 23** (87%) | Sem evolução – FR frio persiste; S2 melhorou sem foco |
 | 6 |  |  |  |  |  |
 
 > **Referência:** 1:44.487
@@ -29,7 +29,7 @@
 | 2 | 29.660 / 29.869<br>*(+0.495s)* | 40.607 / 40.810<br>*(+0.646s)* | 35.245 / 35.305<br>*(+0.356s)* | Brake system ajustado; temperaturas balanceadas |
 | 3 | 29.560 / 29.783<br>*(+0.186s)* | 40.547 / 40.995<br>*(+0.383s)* | 35.122 / 35.378<br>*(+0.173s)* | Setup Friedolf otimizado; RF 82°C ✅ |
 | 4 | 29.477 / 29.657<br>*(+0.103s)* | 40.500 / 40.660<br>*(+0.336s)* | 34.970 / 35.151<br>**(+0.021s)** | RF banda fria (57-70°C); FL/LR quentes (97°C) |
-| 5 |  |  |  |  |
+| 5 | 29.535 / 29.725<br>*(+0.161s)* | 40.372 / 40.691<br>*(+0.208s)* | 35.007 / 35.280<br>*(+0.058s)* | FR persiste frio (78-85°C); aderência 7.5→6.5 |
 | 6 |  |  |  |  |
 
 > **Referência:** S1: 29.374 / S2: 40.164 / S3: 34.949
@@ -110,8 +110,23 @@
   - Manter resto do setup
 - **Próximo:** **Setor 1 (Bloco 1) + Setor 3 (Bloco 2)** - refinar gaps menores antes de voltar ao S2
 
-### Dia 5 – Setor 1 + Setor 3
-*(a preencher)*
+### Dia 5 – Setor 1 + Setor 3 ❌
+- **Foco:** Setor 1 (Bloco 1) + Setor 3 (Bloco 2) - reduzir gaps finais
+- **Resultado:** Melhor 1:45.112 / Média 1:45.677 (+0.625s da ref.)
+- **Evolução:** **+0.015s** vs Treino 4 ❌ (estagnação)
+- **Pontos fortes:**
+  - **S2 melhorou -0.128s** sem foco direto (40.500 → 40.372)
+  - 100% voltas válidas no stint 2 (12/12) - melhor taxa da semana
+  - Consistência stint 2 excelente (gap 0.105s)
+  - 87% válidas geral (20/23)
+- **Pontos fracos:**
+  - **S1 piorou +0.058s** apesar do foco (29.477 → 29.535)
+  - **S3 piorou +0.037s** apesar do foco (34.970 → 35.007)
+  - **FR continua frio:** 78-85°C (vs FL 90-96°C) - ajuste -0.4 PSI não resolveu
+  - **Aderência degradou 7.5→6.5** no final de ambos stints
+  - Stint 1 com degradação +0.370s (primeiras vs últimas 3 voltas)
+- **Diagnóstico:** Trabalho focado em S1/S3 **não gerou ganhos** (over-driving?). S2 melhorou naturalmente, sugerindo que menos pressão = mais velocidade em alguns casos
+- **Próximo:** **Último teste RF** (-0.3 PSI adicional) + **foco total S2** se não resolver - gap +0.208s é maior remanescente
 
 ### Dia 6 – Stint Longo (Degradação)
 *(a preencher)*
