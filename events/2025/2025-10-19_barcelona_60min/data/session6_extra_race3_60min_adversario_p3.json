@@ -1,0 +1,1362 @@
+[
+  {
+    "lap": 1,
+    "time": {
+      "time": 126665,
+      "formattedTime": "2:06.665"
+    },
+    "splits": [
+      33320,
+      52775,
+      40570
+    ],
+    "formattedSplits": [
+      "0:33.320",
+      "0:52.775",
+      "0:40.570"
+    ],
+    "type": "Regular",
+    "valid": false,
+    "boxLap": false,
+    "clock": "15:21",
+    "position": 7,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 33,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 2,
+    "time": {
+      "time": 108015,
+      "formattedTime": "1:48.015"
+    },
+    "splits": [
+      30220,
+      41800,
+      35995
+    ],
+    "formattedSplits": [
+      "0:30.220",
+      "0:41.800",
+      "0:35.995"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "15:23",
+    "position": 6,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 33,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 3,
+    "time": {
+      "time": 109240,
+      "formattedTime": "1:49.240"
+    },
+    "splits": [
+      30572,
+      41445,
+      37222
+    ],
+    "formattedSplits": [
+      "0:30.572",
+      "0:41.445",
+      "0:37.222"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "15:25",
+    "position": 6,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 33,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 4,
+    "time": {
+      "time": 111710,
+      "formattedTime": "1:51.710"
+    },
+    "splits": [
+      30995,
+      43880,
+      36835
+    ],
+    "formattedSplits": [
+      "0:30.995",
+      "0:43.880",
+      "0:36.835"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "15:27",
+    "position": 5,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 33,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 5,
+    "time": {
+      "time": 109262,
+      "formattedTime": "1:49.262"
+    },
+    "splits": [
+      30525,
+      41960,
+      36777
+    ],
+    "formattedSplits": [
+      "0:30.525",
+      "0:41.960",
+      "0:36.777"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "15:29",
+    "position": 5,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 33,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 6,
+    "time": {
+      "time": 109407,
+      "formattedTime": "1:49.407"
+    },
+    "splits": [
+      30590,
+      42190,
+      36627
+    ],
+    "formattedSplits": [
+      "0:30.590",
+      "0:42.190",
+      "0:36.627"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "15:31",
+    "position": 5,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 33,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 7,
+    "time": {
+      "time": 109472,
+      "formattedTime": "1:49.472"
+    },
+    "splits": [
+      30200,
+      41935,
+      37337
+    ],
+    "formattedSplits": [
+      "0:30.200",
+      "0:41.935",
+      "0:37.337"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "15:32",
+    "position": 5,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 33,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 8,
+    "time": {
+      "time": 112922,
+      "formattedTime": "1:52.922"
+    },
+    "splits": [
+      30335,
+      41672,
+      40915
+    ],
+    "formattedSplits": [
+      "0:30.335",
+      "0:41.672",
+      "0:40.915"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "15:34",
+    "position": 5,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 33,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 9,
+    "time": {
+      "time": 108967,
+      "formattedTime": "1:48.967"
+    },
+    "splits": [
+      30297,
+      41832,
+      36837
+    ],
+    "formattedSplits": [
+      "0:30.297",
+      "0:41.832",
+      "0:36.837"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "15:36",
+    "position": 5,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 33,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 10,
+    "time": {
+      "time": 109220,
+      "formattedTime": "1:49.220"
+    },
+    "splits": [
+      30607,
+      41917,
+      36695
+    ],
+    "formattedSplits": [
+      "0:30.607",
+      "0:41.917",
+      "0:36.695"
+    ],
+    "type": "Regular",
+    "valid": false,
+    "boxLap": false,
+    "clock": "15:38",
+    "position": 4,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 33,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 11,
+    "time": {
+      "time": 108722,
+      "formattedTime": "1:48.722"
+    },
+    "splits": [
+      30640,
+      41575,
+      36507
+    ],
+    "formattedSplits": [
+      "0:30.640",
+      "0:41.575",
+      "0:36.507"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "15:40",
+    "position": 4,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 33,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 12,
+    "time": {
+      "time": 108175,
+      "formattedTime": "1:48.175"
+    },
+    "splits": [
+      30130,
+      41412,
+      36632
+    ],
+    "formattedSplits": [
+      "0:30.130",
+      "0:41.412",
+      "0:36.632"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "15:42",
+    "position": 4,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 33,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 13,
+    "time": {
+      "time": 107892,
+      "formattedTime": "1:47.892"
+    },
+    "splits": [
+      30482,
+      41172,
+      36237
+    ],
+    "formattedSplits": [
+      "0:30.482",
+      "0:41.172",
+      "0:36.237"
+    ],
+    "type": "Regular",
+    "valid": false,
+    "boxLap": false,
+    "clock": "15:43",
+    "position": 4,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 32,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 14,
+    "time": {
+      "time": 108405,
+      "formattedTime": "1:48.405"
+    },
+    "splits": [
+      30172,
+      41907,
+      36325
+    ],
+    "formattedSplits": [
+      "0:30.172",
+      "0:41.907",
+      "0:36.325"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "15:45",
+    "position": 4,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 32,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 15,
+    "time": {
+      "time": 107922,
+      "formattedTime": "1:47.922"
+    },
+    "splits": [
+      30077,
+      41372,
+      36472
+    ],
+    "formattedSplits": [
+      "0:30.077",
+      "0:41.372",
+      "0:36.472"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "15:47",
+    "position": 4,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 32,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 16,
+    "time": {
+      "time": 109932,
+      "formattedTime": "1:49.932"
+    },
+    "splits": [
+      30852,
+      42370,
+      36710
+    ],
+    "formattedSplits": [
+      "0:30.852",
+      "0:42.370",
+      "0:36.710"
+    ],
+    "type": "Regular",
+    "valid": false,
+    "boxLap": false,
+    "clock": "15:49",
+    "position": 4,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 32,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 17,
+    "time": {
+      "time": 109575,
+      "formattedTime": "1:49.575"
+    },
+    "splits": [
+      30102,
+      42032,
+      37440
+    ],
+    "formattedSplits": [
+      "0:30.102",
+      "0:42.032",
+      "0:37.440"
+    ],
+    "type": "Regular",
+    "valid": false,
+    "boxLap": false,
+    "clock": "15:51",
+    "position": 4,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 32,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 18,
+    "time": {
+      "time": 109427,
+      "formattedTime": "1:49.427"
+    },
+    "splits": [
+      30762,
+      42185,
+      36480
+    ],
+    "formattedSplits": [
+      "0:30.762",
+      "0:42.185",
+      "0:36.480"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "15:52",
+    "position": 3,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 32,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 19,
+    "time": {
+      "time": 109412,
+      "formattedTime": "1:49.412"
+    },
+    "splits": [
+      30452,
+      41305,
+      37655
+    ],
+    "formattedSplits": [
+      "0:30.452",
+      "0:41.305",
+      "0:37.655"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "15:54",
+    "position": 3,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 32,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 20,
+    "time": {
+      "time": 108555,
+      "formattedTime": "1:48.555"
+    },
+    "splits": [
+      30107,
+      41735,
+      36712
+    ],
+    "formattedSplits": [
+      "0:30.107",
+      "0:41.735",
+      "0:36.712"
+    ],
+    "type": "Regular",
+    "valid": false,
+    "boxLap": false,
+    "clock": "15:56",
+    "position": 3,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 32,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 21,
+    "time": {
+      "time": 108910,
+      "formattedTime": "1:48.910"
+    },
+    "splits": [
+      30255,
+      42535,
+      36120
+    ],
+    "formattedSplits": [
+      "0:30.255",
+      "0:42.535",
+      "0:36.120"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "15:58",
+    "position": 3,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 32,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 22,
+    "time": {
+      "time": 108495,
+      "formattedTime": "1:48.495"
+    },
+    "splits": [
+      29920,
+      41915,
+      36660
+    ],
+    "formattedSplits": [
+      "0:29.920",
+      "0:41.915",
+      "0:36.660"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "16:00",
+    "position": 3,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 32,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 23,
+    "time": {
+      "time": 108117,
+      "formattedTime": "1:48.117"
+    },
+    "splits": [
+      30185,
+      41700,
+      36232
+    ],
+    "formattedSplits": [
+      "0:30.185",
+      "0:41.700",
+      "0:36.232"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "16:02",
+    "position": 3,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 32,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 24,
+    "time": {
+      "time": 107902,
+      "formattedTime": "1:47.902"
+    },
+    "splits": [
+      30170,
+      41387,
+      36345
+    ],
+    "formattedSplits": [
+      "0:30.170",
+      "0:41.387",
+      "0:36.345"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "16:03",
+    "position": 3,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 32,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 25,
+    "time": {
+      "time": 108055,
+      "formattedTime": "1:48.055"
+    },
+    "splits": [
+      30215,
+      41477,
+      36362
+    ],
+    "formattedSplits": [
+      "0:30.215",
+      "0:41.477",
+      "0:36.362"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "16:05",
+    "position": 3,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 32,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 26,
+    "time": {
+      "time": 108297,
+      "formattedTime": "1:48.297"
+    },
+    "splits": [
+      30225,
+      41605,
+      36467
+    ],
+    "formattedSplits": [
+      "0:30.225",
+      "0:41.605",
+      "0:36.467"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "16:07",
+    "position": 3,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 32,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 27,
+    "time": {
+      "time": 107600,
+      "formattedTime": "1:47.600"
+    },
+    "splits": [
+      29997,
+      41050,
+      36552
+    ],
+    "formattedSplits": [
+      "0:29.997",
+      "0:41.050",
+      "0:36.552"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "16:09",
+    "position": 3,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 32,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 28,
+    "time": {
+      "time": 108360,
+      "formattedTime": "1:48.360"
+    },
+    "splits": [
+      30035,
+      41555,
+      36770
+    ],
+    "formattedSplits": [
+      "0:30.035",
+      "0:41.555",
+      "0:36.770"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "16:11",
+    "position": 3,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 32,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 29,
+    "time": {
+      "time": 108537,
+      "formattedTime": "1:48.537"
+    },
+    "splits": [
+      30305,
+      41657,
+      36575
+    ],
+    "formattedSplits": [
+      "0:30.305",
+      "0:41.657",
+      "0:36.575"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "16:12",
+    "position": 3,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 32,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 30,
+    "time": {
+      "time": 109837,
+      "formattedTime": "1:49.837"
+    },
+    "splits": [
+      31062,
+      42090,
+      36685
+    ],
+    "formattedSplits": [
+      "0:31.062",
+      "0:42.090",
+      "0:36.685"
+    ],
+    "type": "Regular",
+    "valid": false,
+    "boxLap": false,
+    "clock": "16:14",
+    "position": 3,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 32,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 31,
+    "time": {
+      "time": 108672,
+      "formattedTime": "1:48.672"
+    },
+    "splits": [
+      30132,
+      41872,
+      36667
+    ],
+    "formattedSplits": [
+      "0:30.132",
+      "0:41.872",
+      "0:36.667"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "16:16",
+    "position": 3,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 32,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 32,
+    "time": {
+      "time": 109275,
+      "formattedTime": "1:49.275"
+    },
+    "splits": [
+      30792,
+      41855,
+      36627
+    ],
+    "formattedSplits": [
+      "0:30.792",
+      "0:41.855",
+      "0:36.627"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "16:18",
+    "position": 3,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 32,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 33,
+    "time": {
+      "time": 108137,
+      "formattedTime": "1:48.137"
+    },
+    "splits": [
+      30245,
+      41360,
+      36532
+    ],
+    "formattedSplits": [
+      "0:30.245",
+      "0:41.360",
+      "0:36.532"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "16:20",
+    "position": 3,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 32,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 34,
+    "time": {
+      "time": 108947,
+      "formattedTime": "1:48.947"
+    },
+    "splits": [
+      29932,
+      42335,
+      36680
+    ],
+    "formattedSplits": [
+      "0:29.932",
+      "0:42.335",
+      "0:36.680"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "16:21",
+    "position": 3,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 26,
+      "roadTemperature": 32,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  }
+]
