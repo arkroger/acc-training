@@ -1,10 +1,10 @@
 # Relatório de Evolução – Treinos Barcelona (Audi R8 LMS Evo II GT3 2022)
 
 ## Informações Gerais
-- **Corrida:** 19/10/2025 – 60 min  
-- **Pista:** Barcelona GP  
-- **Duração de cada treino:** 50 min  
-- **Total de dias de treino:** 6  
+- **Corrida:** 19/10/2025 – 60 min
+- **Pista:** Barcelona GP
+- **Duração de cada treino:** 50 min
+- **Total de dias de treino:** 8 (7 seco + 1 chuva)  
 
 ---
 
@@ -18,8 +18,10 @@
 | 5 | **1:45.112** | **+0.625s** | **1:45.677** | **20 / 23** (87%) | Sem evolução – FR frio persiste; S2 melhorou sem foco |
 | 6 (Corrida) | **1:46.140** | **+1.653s** | **~1:46.900** | **34 voltas** (60min) | P2 – Corrida extraordinária; gaps reais identificados |
 | 7 | **1:45.487** | **+1.000s** | **1:45.792** | **20 / 25** (80%) | FL/LR resolvidos; RF frio persiste; setup aprovado com ressalvas |
+| 8 (Chuva) ☔ | **1:56.252** (Medium)<br>**2:04.065** (Heavy)<br>**1:52.757** (Light) | **+11.8s**<br>**+19.6s**<br>**+8.3s** | **1:57.4** (Medium)<br>**2:05.9** (Heavy)<br>**1:54.6** (Light) | **12/13** (Medium)<br>**5/5** (Heavy)<br>**10/11** (Light) | Preparação chuva – Medium/Light aprovados (8/10); Heavy difícil (5/10) |
 
-> **Referência:** 1:44.487
+> **Referência seco:** 1:44.487
+> **Referência chuva:** N/A (primeiro treino molhado)
 
 ---
 
@@ -33,8 +35,10 @@
 | 5 | 29.535 / 29.725<br>*(+0.161s)* | 40.372 / 40.691<br>*(+0.208s)* | 35.007 / 35.280<br>*(+0.058s)* | FR persiste frio (78-85°C); aderência 7.5→6.5 |
 | 6 (Corrida) | 29.812 / ~30.100<br>*(+0.438s)* | 40.847 / ~41.150<br>**(+0.683s)** | 35.255 / ~35.720<br>*(+0.306s)* | P2 (60min); gap P1: ~0.6s/volta; C5+C7 identificados |
 | 7 | 29.505 / 29.727<br>*(+0.131s)* | 40.552 / 40.744<br>*(+0.388s)* | 35.160 / 35.320<br>*(+0.211s)* | FL/LR 82/90°C ✅; RF banda 67°C ❌; pista 30°C |
+| 8 (Chuva) ☔ | **32.485** (Medium)<br>**34.530** (Heavy)<br>**31.375** (Light) | **44.667** (Medium)<br>**47.545** (Heavy)<br>**43.425** (Light) | **38.887** (Medium)<br>**41.817** (Heavy)<br>**37.592** (Light) | Medium/Light: Wet OK; Heavy: pneus 28-31°C ❌ não aquecem |
 
-> **Referência:** S1: 29.374 / S2: 40.164 / S3: 34.949
+> **Referência seco:** S1: 29.374 / S2: 40.164 / S3: 34.949
+> **Gaps chuva vs seco:** Medium +3s/+4.5s/+4s | Heavy +5s/+7.5s/+7s | Light +2s/+3.3s/+2.6s
 
 ---
 
@@ -199,4 +203,99 @@
   - ✅ Feeling OK, consistência 80%, degradação aceitável
   - ✅ Potencial competitivo: 1:45.8-1:46.0s race pace (similar/melhor que P1)
 - **Setup final corrida:** FL 24.5 / RF 24.3 (+0.3) / LR 24.2 / RR 24.8
+- **Próximo:** Treino 8 - Preparação chuva (opcional)
+
+### Dia 8 – Preparação para Chuva ☔ (Parcialmente Aprovado)
+- **Foco:** Testar setup e pilotagem em 3 condições de chuva
+- **Condições testadas:** Medium Rain (13 laps), Heavy Rain (5 laps), Light Rain + Bots (11 laps)
+- **Resultado geral:** ✅ Medium/Light aprovados | ❌ Heavy não resolvido
+- **Estrutura:** 3 blocos distintos (~60min total)
+
+#### Medium Rain (Bloco 1 - 13 laps)
+- **Resultado:** Melhor 1:56.252 / Média 1:57.385
+- **Evolução:** +11.2s vs seco (normal para chuva)
+- **Pontos fortes:**
+  - **Feeling 8/10** ✅ - piloto muito confortável
+  - 92% voltas válidas (12/13) - excelente consistência
+  - **TC 4 / ABS 4 = sweet spot** identificado
+  - Setup 2 (lap 12) com pressões reduzidas (~26 pit) gerou melhor volta
+  - Temp pneus 46-52°C (frio mas funcionando)
+  - Pressões hot 28-29 PSI (ideal)
+- **Pontos fracos:**
+  - Temp pneus no limite inferior (ideal 60-80°C, teve 46-52°C)
+  - Testou TC 6→5→4→3 progressivamente
+- **Setup aprovado:** Pressões 26-27 pit, TC 4, ABS 4
+
+#### Heavy Rain / FLOODED (Bloco 2 - 5 laps)
+- **Resultado:** Melhor 2:04.065 / Média 2:05.875
+- **Evolução:** **+7.8s vs medium rain** ❌ (perda massiva)
+- **Pontos fortes:**
+  - 100% voltas válidas (5/5)
+  - Completou todas sem acidentes
+- **Pontos fracos:**
+  - **Feeling 5/10** ❌ - "bastante dificuldades, mesmo mudando setup continuou complicado"
+  - **Temp pneus 28-31°C** ❌ - MUITO FRIOS, não funcionam
+  - Grip status: **FLOODED** (camada água excessiva)
+  - Temp ar/pista: 15/18°C (-6/-8°C vs medium)
+  - **TC 6 / ABS 5 insuficientes** (máximos não resolvem)
+  - Problema térmico: pneus não aquecem
+- **Diagnóstico:** Requer condições mínimas (temp pista > 20°C). Problema físico difícil resolver com setup.
+- **Recomendação:** Evitar corrida se heavy rain previsto
+
+#### Light Rain + Bots (Bloco 3 - 11 laps)
+- **Resultado:** Melhor 1:52.757 (DAMP) / Média 1:54.610
+- **Evolução:** **-3.5s vs medium rain** ✅ (pista secando)
+- **Pontos fortes:**
+  - **Feeling 8/10** ✅ - excelente mesmo com tráfego AI
+  - **Melhor volta GERAL chuva:** 1:52.757 (em DAMP)
+  - 91% voltas válidas (10/11)
+  - **TC 3 / ABS 3** (configs seca) = confirmando pista melhor
+  - Transição chuva→seco gerenciada bem
+  - Corrida com bots validou spray/visibilidade
+- **Pontos fracos:**
+  - **Pressões hot 30-32 PSI** ⚠️ - pneus Wet superaquecendo
+  - **Temp 60-83°C** ⚠️ - acima do ideal Wet (pista secando demais)
+  - 31% dano (colisões com bots, laps 1-2)
+  - Pneus Wet com ~24 laps já (degradados)
+- **Observação:** Pista DAMP = ideal para Wet. Se continuar secando, trocar slicks.
+
+#### Validação Setup Chuva
+
+**✅ APROVADO - Medium/Light Rain:**
+- Setup: Pressões pit 26-27 PSI, TC 4, ABS 4, Friedolf base Wet
+- Feeling: 8/10
+- Tempos: 1:56s (medium) / 1:52-1:54s (light)
+- Consistência: 91-92% válidas
+- **Pronto para corrida se chuva light/medium**
+
+**❌ NÃO RESOLVIDO - Heavy Rain:**
+- Feeling: 5/10
+- Tempos: 2:04-2:08s
+- Pneus não aquecem (28-31°C)
+- TC 6 / ABS 5 insuficientes
+- **Evitar corrida se heavy rain** (ou aceitar pace muito lento)
+
+#### Comparativo Seco vs Chuva
+
+| Aspecto | Seco (T7) | Chuva Medium (T8) | Observação |
+|---------|-----------|-------------------|------------|
+| **Melhor volta** | 1:45.487 | 1:56.252 | +10.8s (normal) |
+| **Feeling** | 6.5-7.0 | **8.0** ✅ | **MELHOR em chuva!** |
+| **% válidas** | 80% | 92% | +12% |
+| **RF frio?** | Sim (67°C) | **Não** (46-48°C ok) | Problema resolvido! |
+| **FL/LR** | 82/90°C | 47-52°C | Todos frios = balanceado |
+
+**Descoberta:** Piloto **mais confortável em chuva medium (8/10) que no seco (6.5/10)**! Carro mais previsível, RF frio não é problema.
+
+#### Lições Aprendidas
+1. ✅ **Medium/Light rain dominados:** Setup validado, feeling 8/10
+2. ✅ **TC/ABS adaptativos funcionam:** 3-6 conforme condição
+3. ✅ **Transição chuva→seco gerenciável:** Atenção em temp/pressões
+4. ❌ **Heavy rain crítico:** Pneus não aquecem, requer mais prática
+5. ✅ **RF frio resolvido em chuva:** Todos pneus frios = balanceamento ok
+6. ✅ **Piloto confortável em adversidade:** Feeling melhor que seco!
+
 - **Próximo:** **CORRIDA 19/10/2025** - Barcelona 60min 🏁
+  - **Se seco:** Setup T7 (FL 24.5 / FR 24.3 / LR 24.2 / RR 24.8, TC/ABS 3/3)
+  - **Se light/medium rain:** Setup T8 (26-27 pit, TC 4, ABS 4)
+  - **Se heavy rain:** ⚠️ Corrida muito difícil (aceitar pace lento ou reconsiderar)

@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(dir \"C:\\Users\\arkro\\Documents\\workspace\\acc-training\\events\\2025\\2025-10-19_barcelona_60min\\data\\session_3\\parecer\")"
+      "Bash(dir \"C:\\Users\\arkro\\Documents\\workspace\\acc-training\\events\\2025\\2025-10-19_barcelona_60min\\data\\session_3\\parecer\")",
+      "Bash(wc:*)",
+      "Bash(python:*)"
     ],
     "deny": [],
     "ask": []

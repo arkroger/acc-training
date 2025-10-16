@@ -1,0 +1,342 @@
+[
+  {
+    "lap": 1,
+    "time": {
+      "time": 126792,
+      "formattedTime": "2:06.792"
+    },
+    "splits": [
+      35390,
+      48782,
+      42620
+    ],
+    "formattedSplits": [
+      "0:35.390",
+      "0:48.782",
+      "0:42.620"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "15:06",
+    "position": 1,
+    "trackGripStatus": "FLOODED",
+    "tyre": {
+      "pressure": {
+        "frontLeft": 28.47462272644043,
+        "frontRight": 28.639198303222656,
+        "rearLeft": 28.28776741027832,
+        "rearRight": 28.462360382080078
+      },
+      "temperature": {
+        "frontLeft": 28.913715362548828,
+        "frontRight": 27.503049850463867,
+        "rearLeft": 30.0922794342041,
+        "rearRight": 28.785980224609375
+      },
+      "compound": "WET",
+      "currentTyreSet": 0
+    },
+    "environment": {
+      "airTemperature": 14.666903495788574,
+      "roadTemperature": 18.479572296142578,
+      "rainIntensity": "HEAVY RAIN",
+      "windSpeed": 0,
+      "windDirection": 0,
+      "rainIntensityIn10min": "HEAVY RAIN",
+      "rainIntensityIn30min": "HEAVY RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "0m00s"
+      },
+      "fuel": 35.33238220214844,
+      "fuelRealUsed": 2.7699999809265137,
+      "fuelXLap": 2.7699999809265137,
+      "usedFuel": 4.667484283447266,
+      "fuelEstimatedLaps": 12.755420684814453,
+      "tc": 6,
+      "tcCut": 4,
+      "abs": 4
+    }
+  },
+  {
+    "lap": 2,
+    "time": {
+      "time": 127980,
+      "formattedTime": "2:07.980"
+    },
+    "splits": [
+      36015,
+      49447,
+      42517
+    ],
+    "formattedSplits": [
+      "0:36.015",
+      "0:49.447",
+      "0:42.517"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "15:12",
+    "position": 1,
+    "trackGripStatus": "FLOODED",
+    "tyre": {
+      "pressure": {
+        "frontLeft": 29.15983772277832,
+        "frontRight": 29.302400588989258,
+        "rearLeft": 28.88279914855957,
+        "rearRight": 29.04924964904785
+      },
+      "temperature": {
+        "frontLeft": 30.8564395904541,
+        "frontRight": 29.205429077148438,
+        "rearLeft": 31.1964168548584,
+        "rearRight": 29.693435668945312
+      },
+      "compound": "WET",
+      "currentTyreSet": 0
+    },
+    "environment": {
+      "airTemperature": 14.640822410583496,
+      "roadTemperature": 18.41163444519043,
+      "rainIntensity": "HEAVY RAIN",
+      "windSpeed": 0,
+      "windDirection": 0,
+      "rainIntensityIn10min": "HEAVY RAIN",
+      "rainIntensityIn30min": "HEAVY RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "0m00s"
+      },
+      "fuel": 35.10271453857422,
+      "fuelRealUsed": 0.22966766357421875,
+      "fuelXLap": 2.4372329711914062,
+      "usedFuel": 4.897132873535156,
+      "fuelEstimatedLaps": 14.402753829956055,
+      "tc": 6,
+      "tcCut": 4,
+      "abs": 5
+    }
+  },
+  {
+    "lap": 3,
+    "time": {
+      "time": 125312,
+      "formattedTime": "2:05.312"
+    },
+    "splits": [
+      35045,
+      48450,
+      41817
+    ],
+    "formattedSplits": [
+      "0:35.045",
+      "0:48.450",
+      "0:41.817"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "15:14",
+    "position": 1,
+    "trackGripStatus": "FLOODED",
+    "tyre": {
+      "pressure": {
+        "frontLeft": 29.2358455657959,
+        "frontRight": 29.37594223022461,
+        "rearLeft": 28.905345916748047,
+        "rearRight": 29.06195068359375
+      },
+      "temperature": {
+        "frontLeft": 31.654319763183594,
+        "frontRight": 29.977642059326172,
+        "rearLeft": 31.43743896484375,
+        "rearRight": 29.831876754760742
+      },
+      "compound": "WET",
+      "currentTyreSet": 0
+    },
+    "environment": {
+      "airTemperature": 14.631610870361328,
+      "roadTemperature": 18.387651443481445,
+      "rainIntensity": "HEAVY RAIN",
+      "windSpeed": 0,
+      "windDirection": 0,
+      "rainIntensityIn10min": "HEAVY RAIN",
+      "rainIntensityIn30min": "HEAVY RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "0m00s"
+      },
+      "fuel": 32.703041076660156,
+      "fuelRealUsed": 2.3996734619140625,
+      "fuelXLap": 2.4638195037841797,
+      "usedFuel": 7.2969207763671875,
+      "fuelEstimatedLaps": 13.27332592010498,
+      "tc": 6,
+      "tcCut": 4,
+      "abs": 5
+    }
+  },
+  {
+    "lap": 4,
+    "time": {
+      "time": 125227,
+      "formattedTime": "2:05.227"
+    },
+    "splits": [
+      34735,
+      48292,
+      42200
+    ],
+    "formattedSplits": [
+      "0:34.735",
+      "0:48.292",
+      "0:42.200"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "15:16",
+    "position": 1,
+    "trackGripStatus": "FLOODED",
+    "tyre": {
+      "pressure": {
+        "frontLeft": 29.247079849243164,
+        "frontRight": 29.413440704345703,
+        "rearLeft": 28.914976119995117,
+        "rearRight": 29.100610733032227
+      },
+      "temperature": {
+        "frontLeft": 31.777667999267578,
+        "frontRight": 30.37453842163086,
+        "rearLeft": 31.544048309326172,
+        "rearRight": 30.24089813232422
+      },
+      "compound": "WET",
+      "currentTyreSet": 0
+    },
+    "environment": {
+      "airTemperature": 14.622152328491211,
+      "roadTemperature": 18.363037109375,
+      "rainIntensity": "HEAVY RAIN",
+      "windSpeed": 0,
+      "windDirection": 0,
+      "rainIntensityIn10min": "HEAVY RAIN",
+      "rainIntensityIn30min": "HEAVY RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "0m00s"
+      },
+      "fuel": 30.23468780517578,
+      "fuelRealUsed": 2.468353271484375,
+      "fuelXLap": 2.474940061569214,
+      "usedFuel": 9.765237808227539,
+      "fuelEstimatedLaps": 12.216361045837402,
+      "tc": 6,
+      "tcCut": 4,
+      "abs": 5
+    }
+  },
+  {
+    "lap": 5,
+    "time": {
+      "time": 124065,
+      "formattedTime": "2:04.065"
+    },
+    "splits": [
+      34530,
+      47545,
+      41990
+    ],
+    "formattedSplits": [
+      "0:34.530",
+      "0:47.545",
+      "0:41.990"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "15:18",
+    "position": 1,
+    "trackGripStatus": "FLOODED",
+    "tyre": {
+      "pressure": {
+        "frontLeft": 29.219541549682617,
+        "frontRight": 29.411890029907227,
+        "rearLeft": 28.911081314086914,
+        "rearRight": 29.119640350341797
+      },
+      "temperature": {
+        "frontLeft": 31.497264862060547,
+        "frontRight": 30.364856719970703,
+        "rearLeft": 31.50994300842285,
+        "rearRight": 30.445573806762695
+      },
+      "compound": "WET",
+      "currentTyreSet": 0
+    },
+    "environment": {
+      "airTemperature": 14.612455368041992,
+      "roadTemperature": 18.33780860900879,
+      "rainIntensity": "HEAVY RAIN",
+      "windSpeed": 0,
+      "windDirection": 0,
+      "rainIntensityIn10min": "HEAVY RAIN",
+      "rainIntensityIn30min": "HEAVY RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "0m00s"
+      },
+      "fuel": 27.790681838989258,
+      "fuelRealUsed": 2.4440059661865234,
+      "fuelXLap": 2.523212432861328,
+      "usedFuel": 12.209226608276367,
+      "fuelEstimatedLaps": 11.014043807983398,
+      "tc": 6,
+      "tcCut": 4,
+      "abs": 5
+    }
+  }
+]
