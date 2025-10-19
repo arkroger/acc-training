@@ -1,0 +1,122 @@
+[
+  {
+    "lap": 1,
+    "time": {
+      "time": 106717,
+      "formattedTime": "1:46.717"
+    },
+    "splits": [
+      29690,
+      41522,
+      35505
+    ],
+    "formattedSplits": [
+      "0:29.690",
+      "0:41.522",
+      "0:35.505"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "23:13",
+    "position": 5,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 18,
+      "roadTemperature": 18,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 2,
+    "time": {
+      "time": 105782,
+      "formattedTime": "1:45.782"
+    },
+    "splits": [
+      29720,
+      41067,
+      34995
+    ],
+    "formattedSplits": [
+      "0:29.720",
+      "0:41.067",
+      "0:34.995"
+    ],
+    "type": "Regular",
+    "valid": true,
+    "boxLap": false,
+    "clock": "23:15",
+    "position": 4,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 18,
+      "roadTemperature": 18,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  },
+  {
+    "lap": 3,
+    "time": {
+      "time": 112032,
+      "formattedTime": "1:52.032"
+    },
+    "splits": [
+      29560,
+      40685,
+      41787
+    ],
+    "formattedSplits": [
+      "0:29.560",
+      "0:40.685",
+      "0:41.787"
+    ],
+    "type": "Inlap",
+    "valid": false,
+    "boxLap": true,
+    "clock": "23:17",
+    "position": 3,
+    "tyre": {},
+    "environment": {
+      "airTemperature": 18,
+      "roadTemperature": 18,
+      "rainIntensity": "NO RAIN"
+    },
+    "carInfo": {
+      "damage": {
+        "front": 0,
+        "rear": 0,
+        "left": 0,
+        "right": 0,
+        "center": 0,
+        "totalDamage": 0,
+        "isDamaged": false,
+        "time": "-"
+      }
+    }
+  }
+]
