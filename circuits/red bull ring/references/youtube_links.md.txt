@@ -1,0 +1,16 @@
+# 🎥 YouTube Links – Circuito de Red Bull Ring
+
+Este arquivo lista os vídeos de referência utilizados para estudo do traçado de **Red Bull Ring** no **Assetto Corsa Competizione**, com links diretos e associação às transcrições disponíveis.
+
+---
+
+| Título do Vídeo | Canal | Link | Tipo | Transcrição Associada |
+|------------------|--------|------|------|------------------------|
+| **Red Bull Ring In-Depth Track Guide** | **Yorkie** | [🎥 Assistir no YouTube](https://www.youtube.com/watch?v=9vp7SrDjlTA) | Guia Detalhado | `transcripts/Red Bull Ring In-Depth Track Guide.json` *(transcrição completa usada para o curva-a-curva)* |
+| **How to be Quick at the Red Bull Ring on Assetto Corsa Competizione – Track Guide** | **Traction** | [🎥 Assistir no YouTube](https://www.youtube.com/watch?v=PX3adXLKKLk) | Guia de Pilotagem | `transcripts/How to be Quick at the Red Bull Ring on Assetto Corsa Competizione - Track Guide.json` *(análise técnica e lap time targets)* |
+
+---
+
+🧭 **Observação:**
+- Os nomes de arquivo das transcrições podem ser ajustados para manter consistência (`canal_nome_curto.json`).
+- Esse `youtube_links.md` serve como **índice de fontes**, permitindo rastreabilidade entre **vídeo**, **transcrição**, e **relatório**.
