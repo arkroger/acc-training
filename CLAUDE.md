@@ -10,9 +10,8 @@ This repository supports training preparation for **Assetto Corsa Competizione (
 
 ### Data Flow
 1. **Raw lap data** (JSON) exported from ACC → stored in `events/[championship]/[event]/sessions/`
-2. **Flat lap arrays** converted to **unified schema** (meta + stints) via Python mapper
-3. **Session analysis** generates daily training reports and evolution tracking
-4. **Track guides** reference video transcriptions and expert advice (Yorkie, Driver61, etc.)
+2. **Session analysis** processes flat lap data directly to generate daily training reports and evolution tracking
+3. **Track guides** reference video transcriptions and expert advice (Yorkie, Driver61, etc.)
 
 ### Directory Structure
 ```
@@ -76,28 +75,25 @@ acc-training/
 3. **`analysis/`**: ONLY technical analyses organized by session
 4. **`reports/`**: ONLY consolidated reports and summaries
 
-## Key Commands
+## Data Format
 
-### Data Processing
-```bash
-# Convert flat lap data to unified schema
-python acc-json-tools/flat_to_unified_mapper.py <input.json> <output.json>
-```
+### Session Data (Flat Format)
+Session files contain an array of lap objects with the following fields:
+- `lap`: Lap number
+- `time`: Lap time (ms and formatted)
+- `splits`: Array of sector times [S1, S2, S3]
+- `type`: Lap type (Regular/Outlap/Inlap)
+- `valid`: Boolean indicating if lap is valid
+- `tyre`: Tyre data (pressure, temperature, compound, currentTyreSet)
+- `carInfo`: Car data (fuel, damage, TC/ABS settings)
+- `environment`: Track conditions (air/road temp, rain, wind)
+- `trackGripStatus`: Track grip level (OPTIMUM/FAST/GREEN)
 
-**Input format:** Array of lap objects with fields:
-- `lap`, `time`, `splits`, `type` (Regular/Outlap/Inlap)
-- `valid`, `tyre.currentTyreSet`, `carInfo.fuel`
-- `environment`, `trackGripStatus`
-
-**Output format:** Unified schema with:
-- `meta`: Event metadata, track conditions, traffic
-- `stints`: Array of stints, each with tyre set, fuel levels, and laps array
-
-### Stint Detection Rules
-The mapper applies these rules automatically:
-1. **Outlap starts new stint** (closes previous if exists)
-2. **Tyre set change splits stint** (for regular laps only)
-3. **Inlap ends current stint** (inlap included in that stint)
+### Stint Detection
+When analyzing sessions, stints are identified by:
+1. **Outlap** starts new stint (closes previous if exists)
+2. **Tyre set change** splits stint (for regular laps only)
+3. **Inlap** ends current stint (inlap included in that stint)
 
 ## Workflow Pattern
 
@@ -144,18 +140,17 @@ When analyzing track performance:
 - Reference transcriptions in `circuits/[track]/transcripts/`
 - Note differences between expert sources (marked in italics)
 
-## Data Schema
+## Analysis Guidelines
 
-### Unified Lap Schema (schemas/lap_schema.json)
-Required fields in `meta`:
-- `event`, `track`, `car`, `condition.air_temp_c`, `condition.track_temp_c`
-
-Required fields in each stint:
-- `stint_no`, `laps[]` with `lap_no`, `valid`, `lap_time_ms`
-
-Optional fields:
-- `tyre_set`, `fuel_start_l`, `fuel_end_l`, `pressures_cold`
-- Sector times: `s1_ms`, `s2_ms`, `s3_ms`
+### Key Metrics to Extract
+When analyzing session data, focus on:
+- **Best lap time** and sector times
+- **Valid laps** only (unless analyzing errors)
+- **Consistency:** Average lap time, standard deviation
+- **Fuel consumption:** Average L/lap, estimate for race distance
+- **Tyre data:** Pressures (hot), temperatures, degradation across stint
+- **Track conditions:** Air/road temperature, grip status
+- **Stint breakdown:** Identify stints by tyre changes and outlap/inlap patterns
 
 ## Training Plan Philosophy
 
