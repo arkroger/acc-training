@@ -125,50 +125,65 @@
 
 ---
 
-## Sessão 3 – Validação Setup + Foco S3 (T8-T10) ⏳ PRÓXIMA
+## Sessão 3 – Validação Setup + Foco S3 (T8-T10) ✅ CONCLUÍDA
 
-**Objetivo**: Validar setup ajustado (preload 8) e atacar S3 para bater target objetivo
+**Status**: ✅ Concluída (25/10/2025)
+**Resultado**: **EXCEPCIONAL!** Melhor volta: **1:28.852** - Já muito próximo do target!
 
-**Setup a usar**: `setup_coachdave_preload8.json`
+**Objetivo**: Validar setup ajustado e atacar S3 para bater target objetivo
+**Realizado**: Teste extensivo de 4 stints comparando preload +8, +6 e 0
 
-**Atividades**:
+**Resultados Obtidos**:
 
-### Parte 1: Validação de Setup (15min)
-- Carregar `setup_coachdave_preload8.json`
-- 2 stints de 4-5 voltas
-- **Testar especificamente**:
-  - T2 (aclive): Problema de "se perder" resolvido?
-  - T6-T7 (Rindt aclive): Tração melhorou?
-  - T8 (saída para reta): Controle na aceleração OK?
-- **Meta**: 4+ voltas válidas em 1:28.6-1:29.2
+### Comparação de Setups Testados:
 
-**Ajustes opcionais** (se necessário):
-- Se ainda instável: preload 8 → 10
-- Se muito estável/perdendo agilidade: preload 8 → 6
+**Stint 1 - Preload +8 (100):**
+- Melhor volta válida: **1:29.092**
+- Taxa de válidas: **6/6 (100%)**
+- ✅ Máxima segurança, mas não o mais rápido
+- 🎯 Melhor S2: 0:38.900 (superou target!)
 
-### Parte 2: Foco S3 (15-25min restantes)
-- 3 stints focados exclusivamente em S3:
-  - **T8 (Jochen Rindt)**: Tração máxima na saída (crucial!)
-  - **T9-T10 (Chicane final)**: Fluidez sem perder velocidade
-- Trabalhar sequência T7→T8 conectada
-- 6-8 voltas completas para validação
+**Stint 2 - Preload +6 (80):**
+- Melhor volta válida: **1:29.547**
+- Taxa de válidas: 4/5 (80%)
+- ❌ Pior desempenho de todos os setups
 
-**Meta**:
-- **Volta completa**: **1:28.560 ou melhor** (bater target!) 🎯
-- **S3**: 0:27.217 ou melhor (ganhar 0.125s restantes)
-- **Consistência**: 80%+ voltas válidas
-- Validar que setup está OK para sessões seguintes
+**Stint 3 - Preload 0 (Coach Dave Original):**
+- Melhor volta válida: **1:28.877** 🔥 **MELHOR DA SESSÃO**
+- Taxa de válidas: 5/6 (83%)
+- ✅ Piloto conseguiu dominar e se adaptar
+- ✅ Todos os setores competitivos
 
-**Pontos-chave**:
-- T8 define início da volta seguinte (saída para reta principal)
-- Chicane T9-T10: fluidez > velocidade pontual
-- Com setup correto, voltas de 1:28.9 devem ser válidas
+**Stint 4 - Preload 0 (Consolidação):**
+- Melhor volta válida: **1:28.852** (segunda melhor!)
+- Melhor S3 da sessão: **0:27.257** (+0.040s do target!)
+- Taxa de válidas: 6/11 (55%) - muitas invalidações
+
+**Análise de Comparação**:
+- ✅ **Preload 0 comprovadamente mais rápido** (-0.6s vs preload +8)
+- ✅ **Piloto demonstrou controle** do setup difícil
+- ✅ **S3 resolvido**: 0:27.257 vs 0:27.217 target (+0.040s apenas!)
+- ⚠️ Taxa de válidas caiu em stint longo (fadiga/concentração)
+
+**Entregas**:
+- ✅ Setup definido: **Coach Dave Preload 0** (mais rápido)
+- ✅ S1 quase perfeito: +0.021s do target (99.9%)
+- ✅ S3 quase perfeito: +0.040s do target (98.5%)
+- ✅ Melhor volta 1:28.852 (+0.292s do target 1:28.560)
+- ✅ Potencial combinado: 1:28.597 (melhores setores)
+- ⚠️ Trabalhar: Consistência em stints longos e track limits
+
+**Decisão**: Usar **Preload 0** como setup padrão. Piloto demonstrou controle suficiente e performance é significativamente superior.
+
+**Relatório completo**: `reports/treino3.md`
 
 ---
 
-## Sessão 4 – Consolidação + Stint Longo (30min)
+## Sessão 4 – Consolidação + Stint Longo (30min) ⏳ PRÓXIMA
 
 **Objetivo**: Consolidar velocidade com consistência e testar degradação
+
+**Setup a usar**: `CDA_22_25.json` (Preload 0 - definido em S3)
 
 **Atividades**:
 
@@ -363,22 +378,21 @@
 
 ### Resultados Reais vs Plano Original
 
-| Métrica | Plano Original (S2) | Real Obtido (S2) | Objetivo Final (S7) | Evolução |
+| Métrica | Plano Original (S2) | Real Obtido (S3) | Objetivo Final (S7) | Evolução |
 |---------|---------------------|------------------|---------------------|----------|
-| **Volta completa** | 1:31.0-1:32.0 | **1:28.925*** | 1:28.2-1:28.6 | **-2.1s a -3.3s** ✅ |
-| **S1** | 0:30.5 | **0:22.460*** | 0:22.419 | **JÁ QUASE PERFEITO** ✅ |
-| **S2** | 0:37.0 | **0:38.992*** | 0:38.923 ou melhor | **JÁ SUPEROU!** 🔥 |
-| **S3** | 0:24.0 | **0:27.342*** | 0:27.217 ou melhor | **-0.125s restantes** |
-| **Consistência** | ±0.8s | ±0.378s | ±0.2-0.3s | **Já muito boa** ✅ |
-
-*Tempos de voltas inválidas (S2, setup Coach Dave com preload 0)
+| **Volta completa** | 1:31.0-1:32.0 | **1:28.852** ✅ | 1:28.2-1:28.6 | **-2.1s a -3.3s** ✅ |
+| **S1** | 0:30.5 | **0:22.440** | 0:22.419 | **+0.021s apenas!** ✅✅ |
+| **S2** | 0:37.0 | **0:38.900** ✅ | 0:38.923 ou melhor | **JÁ SUPEROU!** 🔥 |
+| **S3** | 0:24.0 | **0:27.257** ✅ | 0:27.217 ou melhor | **+0.040s apenas!** ✅✅ |
+| **Consistência** | ±0.8s | ±0.415s | ±0.2-0.3s | **Já muito boa** ✅ |
 
 **Análise**:
-- ✅ Progresso MUITO acima do esperado (S1 e S2 superaram metas de S2-S5)
-- ✅ S2 já superou target objetivo (-0.069s)
-- ✅ S1 falta apenas 0.041s
-- ⏳ S3 falta 0.125s (foco da Sessão 3)
-- 🎯 Com setup ajustado, **target 1:28.560 está ao alcance**
+- 🔥 Progresso EXCEPCIONAL! Todos os setores agora estão muito próximos do target
+- ✅ S2 já superou target objetivo (0:38.900 vs 0:38.923)
+- ✅ S1 faltam apenas +0.021s (99.9% do target!)
+- ✅ S3 faltam apenas +0.040s (98.5% do target)
+- 🎯 **Potencial combinado**: 1:28.597 (melhores setores de S3)
+- 🎯 Target 1:28.560 **está ao alcance imediato**!
 
 ### Progressão por Sessão (Plano Revisado)
 
@@ -386,8 +400,8 @@
 |--------|------|------------|-------|--------|
 | **S1** | Preparação/Reconhecimento | -- | Base | ✅ 1:29.432 |
 | **S2** | Teste Setups (Firedolf vs CDA) | 1:31.0-1:32.0 | Variados | ✅ 1:28.925* |
-| **S3** | Validar Setup + Foco S3 | **1:28.560** 🎯 | CDA Preload 8 | ⏳ Próxima |
-| **S4** | Consolidação + Stint 30min | 1:28.5-1:29.0 | Final | ⏳ Pendente |
+| **S3** | Validar Setup + Foco S3 | **1:28.560** 🎯 | CDA Preload 0 | ✅ **1:28.852** 🔥 |
+| **S4** | Consolidação + Stint 30min | 1:28.5-1:29.0 | CDA Preload 0 | ⏳ Próxima |
 | **S5** | Setup Variações | -- | Chuva + Calor | ⏳ Pendente |
 | **S6** | Qualifying Simulation | 1:28.2-1:28.6 | Quali | ⏳ Pendente |
 | **S7** | Race 60min + Adversários | 1:29.0-1:29.5 | Race | ⏳ Pendente |
@@ -441,27 +455,31 @@
 
 ## Notas Importantes - Progresso Excepcional
 
-⚠️ **PLANO REVISADO**: S1 e S2 superaram MUITO as expectativas originais!
+⚠️ **PLANO REVISADO**: Progresso muito acima das expectativas! Target ao alcance!
 
 ### Conquistas até agora:
-- ✅ **S1**: 1:29.432 (esperado: apenas reconhecimento)
-- ✅ **S2**: 1:28.925 inválida (esperado: 1:31-1:32)
-- ✅ **Setup Coach Dave** identificado como superior
-- ✅ **S2 já superou target** (-0.069s do objetivo)
-- ✅ **Problema diagnosticado**: Preload 0 resolvido com preload 8
+- ✅ **S1**: 1:29.432 → Melhorou para 1:28.852 (S3)
+- ✅ **S2**: 1:28.925 inválida → Consolidou 1:28.852 válida (S3)
+- ✅ **S3**: 1:28.852 válida - **+0.292s do target** (96.7%)
+- ✅ **Setup Coach Dave Preload 0** definido como padrão
+- ✅ **Todos os setores resolvidos**:
+  - S1: +0.021s do target (99.9%!)
+  - S2: JÁ superou target! (-0.023s)
+  - S3: +0.040s do target (98.5%)
+- ✅ **Potencial combinado**: 1:28.597 (melhores setores)
 
 ### Foco restante:
-- 🎯 **Sessão 3**: Validar setup + atacar S3 para bater 1:28.560
-- 🎯 **Sessões 4-7**: Consolidar, preparar quali e race simulation
+- 🎯 **Sessão 4**: Consolidar consistência e stint longo (degradação)
+- 🎯 **Sessões 5-7**: Setups variações, quali simulation e race 60min
 
 ### Setup Status:
 - ✅ **Setup base**: Funcional (S1)
 - ✅ **Setup superior**: Coach Dave identificado (S2)
-- ✅ **Setup ajustado**: `setup_coachdave_preload8.json` criado
-- ⏳ **Próximo**: Validar preload 8 na S3
+- ✅ **Setup testado**: Preload +8, +6, 0 comparados (S3)
+- ✅ **Setup final**: **Preload 0** definido como padrão (S3)
 
 ---
 
-**Status**: ✅ 2 de 7 sessões concluídas - Progresso EXCEPCIONAL!
-**Última atualização**: 2025-10-23
-**Próximo passo**: Sessão 3 - Validar setup ajustado + Foco S3 para bater target 1:28.560
+**Status**: ✅ 3 de 7 sessões concluídas - Progresso EXCEPCIONAL!
+**Última atualização**: 2025-10-25
+**Próximo passo**: Sessão 4 - Consolidação + Stint Longo (30min) para validar consistência e degradação
