@@ -14,8 +14,8 @@
 |-----|--------------|-------------|----------------------|-------------|
 | 1   | 1:29.432     | 1:30.172    | 6                    | Reconhecimento - Resultado acima do esperado (+90% do target) |
 | 2   | 1:29.412 (1:28.925*) | 1:29.762 | 5 | Teste setups Firedolf vs Coach Dave (*inválida abaixo do target!) |
-| **3**   | **1:28.852** | **1:29.400** | **20** | **Validação setup - Preload 0 definido. Target ao alcance! 🎯** |
-| 4   |              |             |                      |              |
+| 3   | 1:28.852 | 1:29.400 | 20 | Validação setup - Preload 0 definido. Target ao alcance! 🎯 |
+| **4**   | **1:28.490** 🔥 | **1:29.200** | **26** | **TARGET SUPERADO! Stint longo validado. ⚠️ Consumo crítico!** |
 | 5   |              |             |                      |              |
 | 6   |              |             |                      |              |
 | 7   |              |             |                      |              |
@@ -23,7 +23,8 @@
 | 9   |              |             |                      |              |
 
 **Target Objetivo:** 1:28.560 (Aliens: 1:27.629)
-**Evolução Total (S1→S3):** -0.580s (-0.65%) ✅
+**Evolução Total (S1→S4):** -0.942s (-1.05%) 🔥🔥🔥
+**Status:** ✅ **TARGET SUPERADO em S4!** (1:28.490 = -0.070s melhor que target!)
 
 ---
 
@@ -32,8 +33,8 @@
 |-----|-----------|----------|-----------|----------|-----------|----------|-------------|
 | 1   | 0:22.550  | 0:22.686 | 0:39.227  | 0:39.506 | 0:27.655  | 0:27.980 | S1 já próximo (+0.131s), S3 com maior gap (+0.438s) |
 | 2   | 0:22.497 (0:22.460*) | 0:22.631 | 0:39.175 (0:38.992*) | 0:39.415 | 0:27.540 (0:27.342*) | 0:27.865 | S2 superou target (*), S3 melhorou -0.3s |
-| **3**   | **0:22.440** | **0:22.572** | **0:38.900** | **0:39.026** | **0:27.257** | **0:27.450** | **Todos setores resolvidos! S2 superou, S1 e S3 quase perfeitos** 🔥 |
-| 4   |           |          |           |          |           |          |             |
+| 3   | 0:22.440 | 0:22.572 | 0:38.900 | 0:39.026 | 0:27.257 | 0:27.450 | Todos setores resolvidos! S2 superou, S1 e S3 quase perfeitos 🔥 |
+| **4**   | **0:22.330** 🔥 | **0:22.515** | **0:38.885** 🔥 | **0:39.022** | **0:27.195** 🔥 | **0:27.440** | **TODOS OS 3 SETORES SUPERARAM O TARGET!** 🔥🔥🔥 |
 | 5   |           |          |           |          |           |          |             |
 | 6   |           |          |           |          |           |          |             |
 | 7   |           |          |           |          |           |          |             |
@@ -45,10 +46,10 @@
 - S2 (T4-T7): 0:38.923
 - S3 (T8-T10): 0:27.217
 
-**Gaps vs Target (S3):**
-- S1: +0.021s (99.9% ✅✅)
-- S2: -0.023s (superou target! 🔥)
-- S3: +0.040s (98.5% ✅)
+**Gaps vs Target (S4):**
+- S1: **-0.089s** (104.0% ✅✅✅ **SUPEROU!**)
+- S2: **-0.038s** (100.4% ✅✅✅ **SUPEROU!**)
+- S3: **-0.022s** (100.8% ✅✅✅ **SUPEROU!**)
 
 ---
 
@@ -56,26 +57,28 @@
 
 ### Gap vs Target Objetivo (1:28.560)
 
-| Métrica | S1 | S2 | S3 | Evolução | % Atingido |
-|---------|-----------|-------------|--------------|----------|------------|
-| **Volta Completa** | 1:29.432 | 1:29.412 (1:28.925*) | **1:28.852** | **-0.580s** | **96.7%** ✅✅ |
-| **S1 (T1-T3)** | 0:22.550 | 0:22.497 (0:22.460*) | **0:22.440** | **-0.110s** | **99.9%** ✅✅ |
-| **S2 (T4-T7)** | 0:39.227 | 0:39.175 (0:38.992*) | **0:38.900** | **-0.327s** | **100.6% 🔥** |
-| **S3 (T8-T10)** | 0:27.655 | 0:27.540 (0:27.342*) | **0:27.257** | **-0.398s** | **98.5%** ✅✅ |
+| Métrica | S1 | S2 | S3 | S4 | Evolução | % Atingido |
+|---------|-----------|-------------|--------------|-------------|----------|------------|
+| **Volta Completa** | 1:29.432 | 1:29.412 (1:28.925*) | 1:28.852 | **1:28.490** 🔥 | **-0.942s** | **99.2%** 🔥🔥🔥 |
+| **S1 (T1-T3)** | 0:22.550 | 0:22.497 (0:22.460*) | 0:22.440 | **0:22.330** 🔥 | **-0.220s** | **104.0%** ✅✅✅ |
+| **S2 (T4-T7)** | 0:39.227 | 0:39.175 (0:38.992*) | 0:38.900 | **0:38.885** 🔥 | **-0.342s** | **100.4%** ✅✅✅ |
+| **S3 (T8-T10)** | 0:27.655 | 0:27.540 (0:27.342*) | 0:27.257 | **0:27.195** 🔥 | **-0.460s** | **100.8%** ✅✅✅ |
 
 *Tempos marcados com asterisco são de voltas inválidas (Sessão 2, setup Coach Dave preload 0)
 
-**Status atual (Pós-S3):**
-- 🔥 **S2 SUPEROU O TARGET** em -0.023s (válida!)
-- ✅ **S1 quase perfeito** - faltam apenas +0.021s (99.9%!)
-- ✅ **S3 quase perfeito** - faltam apenas +0.040s (98.5%)
-- 🎯 **Potencial combinado:** 1:28.597 (apenas +0.037s do target!)
+**Status atual (Pós-S4):**
+- 🔥🔥🔥 **TARGET 1:28.560 SUPERADO!** (1:28.490 = -0.070s melhor!)
+- 🔥 **TODOS OS 3 SETORES SUPERARAM O TARGET!**
+- ✅ **S1:** -0.089s melhor que target (104.0%!)
+- ✅ **S2:** -0.038s melhor que target (100.4%!)
+- ✅ **S3:** -0.022s melhor que target (100.8%!)
+- 🎯 **Potencial combinado:** 1:28.410 (todos setores no nível ou acima do target!)
 
 **Prioridades para próximas sessões:**
-1. **Consistência** - Aumentar taxa de voltas válidas para 90%+ (era 64.5% em S3)
-2. **Track limits** - Trabalhar limites sem perder tempo
-3. **Combinar setores** - Juntar S1+S2+S3 perfeitos na mesma volta
-4. **Stint longo** - Validar degradação e pace em 30min contínuos (S4)
+1. ⚠️ **URGENTE: Resolver consumo de combustível** (3.5 L/lap vs 2.6 esperado)
+2. **Validar consumo real** em ritmo de corrida (não push)
+3. **Qualifying simulation** - Buscar 1:28.3-1:28.5
+4. **Track limits** - Aumentar taxa de válidas para 90%+
 
 ---
 
@@ -98,18 +101,22 @@
 - T8: Tração crucial para reta principal
 - T9-T10: Chicane final precisa de mais fluidez
 
-### Status Atual (Pós-Sessão 3)
-- **Volta de referência atual:** **1:28.852** (segunda: 1:28.877)
-- **Faltam:** +0.292s para target objetivo (96.7% ✅)
-- **Potencial combinado:** **1:28.597** (apenas +0.037s do target!)
-- **Consistência:** ±0.415s (5 voltas válidas, Stint 3)
-- **Setup definido:** Coach Dave Preload 0 ✅
+### Status Atual (Pós-Sessão 4)
+- **Volta de referência atual:** **1:28.490** 🔥 (segunda: 1:28.712, terceira: 1:28.852)
+- **TARGET SUPERADO!** -0.070s melhor que objetivo 1:28.560 🔥🔥🔥
+- **Potencial combinado:** **1:28.410** (todos setores no nível target ou superior!)
+- **Consistência stint longo:** ±0.202s (13 voltas, SUPEROU meta ±0.3s!) ✅
+- **Setup definido e validado:** Coach Dave Preload 0 ✅✅
+- **Pneus validados:** Degradação mínima em 30min (+0.3s apenas) ✅
+- **⚠️ PROBLEMA CRÍTICO:**
+  - ❌ **Consumo 3.5 L/lap** (esperado 2.6 L/lap) = +34% acima!
+  - ❌ **Impacto:** 68L inicial → apenas 19.5 voltas (vs 26 esperadas)
+  - ⚠️ **Necessário:** Validar consumo em ritmo de CORRIDA (não push) na S5
 - **Pontos a melhorar para a corrida:**
-  - ✅ **S1 E S3 RESOLVIDOS** - S1: +0.021s (99.9%!), S3: +0.040s (98.5%)
-  - ✅ **Todos setores competitivos** - S1 99.9%, S2 100.6%, S3 98.5%
-  - ⏳ **Aumentar consistência** - Taxa válidas 64.5% → Meta 90%+
-  - ⏳ **Track limits** - Trabalhar limites de pista
-  - ⏳ **Stint longo** - Validar degradação 30min (Sessão 4)
+  - 🔥 **TODOS SETORES SUPERARAM TARGET!** S1: 104%, S2: 100.4%, S3: 100.8%
+  - ✅ **Stint longo validado** - Consistência ±0.202s, degradação +0.3s
+  - ⚠️ **URGENTE:** Resolver consumo de combustível
+  - ⏳ **Track limits** - Taxa válidas 65% → Meta 90%+
 
 ---
 
@@ -168,6 +175,32 @@
   - **Desafios:** Taxa de válidas caiu para 55% no stint longo (fadiga/concentração)
   - **Track limits:** Principal causa de invalidações (35% total)
 
+### Dia 4 - Consolidação + Stint Longo 30min (27/10/2025)
+- **Melhor volta:** **1:28.490** (Lap 40) 🔥🔥🔥 **NOVO RECORDE! TARGET SUPERADO!**
+  - ⚠️ **Condições:** Pneus novos (Set 6) + low fuel (~5L) = condições de qualifying
+- **Segunda melhor:** **1:28.712** (Lap 39)
+- **Terceira melhor:** **1:28.877** (Lap 11)
+- **Foco:** Consolidação + Stint longo 30min para validar degradação
+- **Resultados:** **EXTRAORDINÁRIO!** Target superado (-0.070s em condições quali), todos setores acima da meta, stint longo validado. ⚠️ Consumo crítico detectado!
+- **Voltas válidas:** 26 de 40 (65%)
+- **Stints:** 5 (S1: laps 1-7, S2: 8-14, S3: 15-18 pit practice, **S4: 19-36 STINT LONGO**, S5: 37-40 **push qualifying**)
+- **Condições:** Optimum, 23°C ar, 26°C pista
+- **Combustível:** ⚠️ **3.486 L/lap** no stint longo (CRÍTICO! +34% acima do esperado 2.6L)
+- **Aprendizados:**
+  - 🔥🔥🔥 **TARGET 1:28.560 SUPERADO!** Atingiu 1:28.490 (-0.070s melhor!)
+  - ⚠️ **Importante:** Recorde foi em condições de qualifying (pneus novos + low fuel ~5L)
+  - 🔥 **TODOS OS 3 SETORES SUPERARAM TARGET:** S1: -0.089s, S2: -0.038s, S3: -0.022s
+  - ✅ **Potencial combinado:** 1:28.410 (todos setores no nível ou acima do target!)
+  - ✅ **Consistência excepcional:** ±0.202s no stint longo (superou meta ±0.3s!)
+  - ✅ **Stint longo validado:** 13 voltas válidas, degradação +0.3s apenas
+  - ✅ **Pneus excelentes:** Pressões estáveis (+0.5 PSI em 30min), degradação mínima
+  - ✅ **Stint final perfeito:** 100% válidas, 3 voltas sub-1:29 (pneus novos + low fuel)
+  - 💡 **Potencial de qualifying:** 1:28.3-1:28.5 alcançável com setup otimizado
+  - ⚠️ **PROBLEMA CRÍTICO:** Consumo 3.5 L/lap vs 2.6 esperado
+  - ⚠️ **Impacto na corrida:** 68L → apenas 19.5 voltas (vs 26 esperadas)
+  - ⚠️ **Necessário:** Validar consumo em ritmo de CORRIDA (não push) na S5
+  - **Track limits:** Principal causa de invalidações (65% válidas, meta 90%)
+
 ---
 
 ## Progressão Esperada (Plano Original)
@@ -176,20 +209,22 @@
 |--------|------|------------|--------|
 | **S1** | Preparação/Estudo | -- | ✅ Concluída (1:29.432) |
 | **S2** | Baseline + Setup Ideal | 1:31.0-1:32.0 | ✅ Concluída (1:29.412 / 1:28.925*) |
-| **S3** | Validar Setup + Foco S3 | 1:28.6-1:29.2 | ✅ **Concluída (1:28.877)** 🔥 |
-| **S4** | Consolidação + Stint Longo | 1:28.5-1:29.0 | ⏳ Próxima |
-| **S5** | Setup Variações (Chuva/Calor) | -- | ⏳ Pendente |
-| **S6** | Qualifying Simulation | 1:28.2-1:28.6 | ⏳ Pendente |
+| **S3** | Validar Setup + Foco S3 | 1:28.6-1:29.2 | ✅ Concluída (1:28.852) 🔥 |
+| **S4** | Consolidação + Stint Longo | 1:28.5-1:29.0 | ✅ **Concluída (1:28.490)** 🔥🔥🔥 |
+| **S5** | ⚠️ **VALIDAR CONSUMO** | Ritmo corrida | ⏳ **URGENTE!** |
+| **S6** | Qualifying Simulation | 1:28.2-1:28.5 | ⏳ Pendente |
 | **S7** | Race 60min + Adversários | 1:29.0-1:29.5 | ⏳ Pendente |
 | **S8-S9** | Reserva / Refinamentos | -- | ⏳ Pendente |
 
 **Observações:**
-- ✅ S1, S2 e S3 superaram MUITO as expectativas do plano original
-- ✅ S3 atingiu **1:28.852** - faltam apenas +0.292s para o target!
-- ✅ **Todos os setores resolvidos:** S1 99.9%, S2 100.6%, S3 98.5%
-- ✅ **Setup definido:** Coach Dave Preload 0 (piloto dominou)
-- 🎯 **Potencial demonstrado:** 1:28.597 (apenas +0.037s do target 1:28.560!)
-- ⏳ **Próximo foco (S4):** Consolidar consistência + stint longo 30min
+- ✅ S1-S4 superaram MUITO as expectativas do plano original
+- 🔥🔥🔥 **S4 SUPEROU O TARGET:** 1:28.490 (-0.070s melhor que 1:28.560!)
+- ✅ **TODOS OS 3 SETORES SUPERARAM TARGET:** S1: 104%, S2: 100.4%, S3: 100.8%
+- ✅ **Setup validado:** Coach Dave Preload 0 (comprovado em 40 voltas!)
+- ✅ **Stint longo validado:** Consistência ±0.202s, degradação mínima
+- 🎯 **Potencial demonstrado:** 1:28.410 (todos setores no nível target ou superior!)
+- ⚠️ **CRÍTICO:** Consumo 3.5 L/lap (vs 2.6 esperado) - Necessita validação urgente!
+- ⏳ **Próximo foco (S5):** **URGENTE - Validar consumo em ritmo de corrida**
 
 ---
 
@@ -199,6 +234,7 @@ events/piloteiro-amador/2025-11-02_spielberg_60min/reports/
 ├── treino1.md (✅ Concluído)
 ├── treino2.md (✅ Concluído)
 ├── treino3.md (✅ Concluído)
+├── treino4.md (✅ Concluído)
 └── evolucao_treinos.md (Este arquivo)
 ```
 
@@ -208,21 +244,23 @@ events/piloteiro-amador/2025-11-02_spielberg_60min/reports/
 
 ## Status Geral
 
-**Progresso:** 🔥🔥🔥 **EXCEPCIONAL**
-- ✅ 3 de 7 sessões concluídas (43%)
-- ✅ 96.7% do target objetivo alcançado (1:28.852 vs 1:28.560)
-- ✅ Todos os setores resolvidos
-- ✅ Setup definido e dominado (Coach Dave Preload 0)
-- ✅ Potencial de bater target comprovado (1:28.597 combinado)
+**Progresso:** 🔥🔥🔥🔥 **EXTRAORDINÁRIO - TARGET SUPERADO!**
+- ✅ 4 de 7 sessões concluídas (57%)
+- 🔥 **99.2% do target objetivo alcançado (1:28.490 vs 1:28.560 = SUPEROU!)**
+- 🔥 **TODOS OS 3 SETORES SUPERARAM O TARGET!**
+- ✅ Setup definido e validado em 40 voltas (Coach Dave Preload 0)
+- ✅ Stint longo validado: Consistência ±0.202s, degradação mínima
+- ⚠️ **CRÍTICO:** Consumo 3.5 L/lap (vs 2.6 esperado) necessita validação urgente
 
 **Próximas Metas:**
-1. Bater target 1:28.560 em volta válida (S4)
-2. Aumentar consistência para 90%+ válidas
-3. Validar degradação em stint 30min
-4. Preparar para qualifying e corrida
+1. ⚠️ **URGENTE: Validar consumo de combustível** em ritmo de corrida (S5)
+2. Qualifying simulation - Buscar 1:28.3-1:28.5 (S6)
+3. Race 60min + adversários (S7)
+4. Aumentar taxa de válidas para 90%+
 
 ---
 
-**Última atualização:** 25/10/2025 (Pós-Sessão 3)
-**Status:** ✅ Setup Coach Dave Preload 0 definido. Target 1:28.560 ao alcance imediato!
-**Próximo passo:** Sessão 4 - Consolidação + Stint Longo (30min) para validar consistência e degradação
+**Última atualização:** 27/10/2025 (Pós-Sessão 4)
+**Status:** 🔥🔥🔥 **TARGET 1:28.560 SUPERADO!** (1:28.490 = -0.070s melhor!)
+**Próximo passo:** Sessão 5 - **URGENTE: Validar consumo de combustível** em ritmo de corrida (não push!)
+**⚠️ Crítico:** Resolver consumo 3.5 L/lap antes da corrida (esperado 2.6 L/lap)

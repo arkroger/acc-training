@@ -179,106 +179,118 @@
 
 ---
 
-## Sessão 4 – Consolidação + Stint Longo (30min) ⏳ PRÓXIMA
+## Sessão 4 – Consolidação + Stint Longo (30min) ✅ CONCLUÍDA
+
+**Status**: ✅ Concluída (27/10/2025)
+**Resultado**: **EXTRAORDINÁRIO!** TARGET SUPERADO! Melhor volta: **1:28.490** (em condições de qualifying)
 
 **Objetivo**: Consolidar velocidade com consistência e testar degradação
 
-**Setup a usar**: `CDA_22_25.json` (Preload 0 - definido em S3)
+**Setup usado**: `CDA_22_25.json` (Preload 0)
 
-**Atividades**:
+**Resultados Obtidos**:
+- ✅ **TARGET SUPERADO:** 1:28.490 vs 1:28.560 (-0.070s melhor!)
+  - ⚠️ **Condições:** Pneus novos + low fuel (~5L) = qualifying simulation
+- ✅ **TODOS OS 3 SETORES SUPERARAM TARGET:**
+  - S1: 0:22.330 vs 0:22.419 (-0.089s) = 104.0%
+  - S2: 0:38.885 vs 0:38.923 (-0.038s) = 100.4%
+  - S3: 0:27.195 vs 0:27.217 (-0.022s) = 100.8%
+- ✅ **Stint longo validado:** 13 voltas, consistência ±0.202s (SUPEROU meta ±0.3s!)
+- ✅ **Degradação controlada:** +0.3s em 13 voltas
+- ✅ **Pneus validados:** Pressões +0.5 PSI em 30min (excelente)
+- ⚠️ **PROBLEMA CRÍTICO DETECTADO:** Consumo 3.486 L/lap (vs 2.6 esperado = +34%!)
 
-### Parte 1: Consolidação (30min)
-- 3 stints de 6-8 voltas em ritmo de corrida
-- Trabalhar consistência: manter 1:28.5-1:29.0 por stint completo
-- Validar setup final está OK
-- **Bloco extra**: 5-6 entradas/saídas de box (praticar pit entry/exit)
+**Entregas**:
+- ✅ Setup Coach Dave Preload 0 validado em 40 voltas
+- ✅ Potencial de qualifying demonstrado: 1:28.3-1:28.5 alcançável
+- ✅ Consistência em stint longo comprovada
+- ✅ Degradação de pneus quantificada
+- ⚠️ **URGENTE:** Consumo de combustível necessita validação
 
-**Pontos a trabalhar**:
-- Manter concentração stint completo
-- Evitar erros em voltas consecutivas
-- Gerenciar pneus (não degradar prematuramente)
+**Relatório completo**: `reports/treino4.md`
 
-### Parte 2: Stint Longo (30min)
-- **30min de stint contínuo** sem pit
-- Ritmo de corrida (não push máximo)
-- **Monitorar**:
-  - Consumo de combustível (L/volta)
-  - Degradação de pneus (queda de performance)
-  - Consistência de pace (evolução do lap time)
-  - Evolução de pressões e temperaturas
-
-**Meta**:
-- **Volta**: 1:28.5-1:29.0 (consistente)
-- **Consistência**: ±0.3s por stint
-- **Pace médio 30min**: 1:29.0-1:29.5
-- **Consumo**: Validar ~2.6L/volta
-- **Degradação**: Quantificar queda de performance
-
-**Análise pós-sessão**:
-- Degradação de pneus por stint
-- Consumo real L/volta
-- Janela de pit ideal (calcular com base em consumo e degradação)
-- Setup final validado para corrida
+**⚠️ PRÓXIMA PRIORIDADE:** Resolver consumo de combustível ANTES de continuar!
 
 ---
 
-## Sessão 5 – Setup para Condições Extremas
+## Sessão 5 – ⚠️ **URGENTE: Validar Consumo de Combustível** ⏳ PRÓXIMA
 
-**Objetivo**: Criar variações de setup para diferentes condições climáticas
+**⚠️ PRIORIDADE CRÍTICA**: Resolver problema de consumo detectado em S4
 
-**Base**: `setup_coachdave_preload8.json` (setup validado)
+**Problema Identificado**:
+- Consumo em S4: **3.486 L/lap** (stint longo)
+- Esperado: **2.6 L/lap**
+- Diferença: **+34% acima do esperado!**
+- **Impacto**: Com 68L inicial → apenas 19.5 voltas (vs 26 esperadas)
+- **Consequência**: Inviabiliza corrida de 60min (~40 voltas)
+
+**Objetivo**: Validar consumo REAL em ritmo de corrida (não push)
+
+**Setup a usar**: `CDA_22_25.json` (Preload 0 - já validado)
 
 **Atividades**:
 
-### Parte 1: Setup Chuva (30min)
-- Partir do setup validado como base
-- **Ajustes**:
-  - Aumentar altura de suspensão (+2-3 clicks)
-  - Mais asa traseira (downforce) +1-2
-  - Pressões de pneus para molhado (validar -2 PSI cold)
-  - Ride height para evitar aquaplanagem
-- Testar em condições molhadas
-- 2 stints de 5-8 voltas para validação
-- **Salvar como: `setup_wet.json`**
+### Stint Longo em Ritmo de CORRIDA (20-30min)
+- **IMPORTANTE:** Ritmo de CORRIDA, NÃO push! (1:29.5-1:30.0)
+- Stint contínuo de 20-30min sem pit
+- **Foco total em economia de combustível:**
+  - TC mais alto se necessário (testar TC 2 ou 3)
+  - Evitar excesso de aceleração
+  - Suavizar frenagens
+  - Manter ritmo sustentável (não atacar)
 
-### Parte 2: Setup Calor Extremo (30min)
-- Condições: 30°C+ temperatura de pista
-- **Ajustes**:
-  - Pressões mais baixas cold (compensar expansão térmica)
-  - Ajuste de brake ducts (mais cooling se necessário)
-  - Validar comportamento com alta temperatura
-- Testar em hot lap mode com temp alta
-- 2 stints de 5-8 voltas para validação
-- **Salvar como: `setup_hot.json`**
+**Monitorar com PRECISÃO**:
+- ✅ Consumo L/volta (acompanhar lap a lap)
+- ✅ Pace médio (deve ser 1:29.5-1:30.0, não 1:29.0!)
+- ✅ Consistência
+- ✅ Configuração do jogo (verificar multiplicador de consumo)
 
-**Entregas**:
-- ✅ Setup chuva validado e salvo
-- ✅ Setup calor extremo validado e salvo
-- ✅ Notas sobre diferenças de pilotagem em cada condição
-- ✅ Preparação para qualquer condição climática na corrida
+**Metas**:
+- **Consumo alvo:** ~**2.6 L/lap** (ou menos)
+- **Pace sustentável:** 1:29.5-1:30.0 (ritmo de corrida)
+- **Validar:** 68L inicial = ~26 voltas (mínimo aceitável)
+- **Ideal:** Consumo ≤2.5 L/lap para margem de segurança
 
-**Observação**: Esta sessão garante que você está preparado para qualquer condição climática no dia da corrida.
+**Análise pós-sessão**:
+- Consumo validado em ritmo de corrida
+- Se consumo OK (~2.6 L/lap):
+  - ✅ Definir estratégia final de combustível
+  - ✅ Calcular pit window preciso
+  - ✅ Liberar para S6 (qualifying)
+- Se consumo ainda alto (>3.0 L/lap):
+  - ⚠️ Investigar configuração do jogo
+  - ⚠️ Testar TC mais alto
+  - ⚠️ Ajustar estratégia de corrida
+
+**⚠️ CRÍTICO:** Esta sessão é **OBRIGATÓRIA** antes de prosseguir para qualifying ou race simulation!
 
 ---
 
 ## Sessão 6 – Qualifying Simulation
 
+**⚠️ PRÉ-REQUISITO:** Sessão 5 (validação de consumo) DEVE estar concluída!
+
 **Objetivo**: Preparar para classificatória e buscar melhor volta absoluta
 
-**Setup**: `setup_coachdave_preload8.json` (ou ajustado após S3)
+**Setup**: `CDA_22_25.json` (Preload 0 - validado em S4)
+
+**Contexto de S4**:
+- Melhor volta atual: **1:28.490** (pneus novos + low fuel)
+- Potencial demonstrado: **1:28.410** (melhores setores)
+- Todos setores já superaram target!
 
 **Atividades**:
 - **4-5 simulações de qualifying**:
   - Outlap (aquecimento de pneus - 1 volta completa)
   - Push lap (máximo ataque)
   - Cooldown lap (retorno ao box)
-- Testar low fuel (5-8L) vs médio fuel (15-20L)
+- **Low fuel obrigatório** (5-8L) para máxima performance
 - Trabalhar timing de saída (evitar tráfego se com IA)
 - Validar melhor volta absoluta
 - **Bloco extra**: 6-8 pitstops completos (treinar entrada/saída)
 
-**Meta**:
-- **Melhor volta**: **1:28.2-1:28.6** (superar target!)
+**Meta REVISADA** (com base em S4):
+- **Melhor volta**: **1:28.3-1:28.5** (superar 1:28.490!)
 - Consistência em 3-4 tentativas de quali (±0.2s)
 - Estratégia de quali definida
 - Pitstops **<27s** (combustível + pneus)
@@ -299,28 +311,30 @@
 
 ## Sessão 7 – Race Simulation (60min) + Análise Adversários
 
+**⚠️ PRÉ-REQUISITO:** Sessão 5 (validação de consumo) DEVE estar concluída!
+
 **Objetivo**: Corrida completa + primeira análise de adversários
 
-**Setup**: `setup_coachdave_preload8.json` (setup de corrida validado)
+**Setup**: `CDA_22_25.json` (Preload 0 - validado)
 
 **Atividades**:
 
 ### Parte 1: Race Simulation Completa (60min)
 - Corrida de 60min exatamente
-- **Pitstop no momento estratégico** (volta 17-19, baseado em S4)
+- **Pitstop no momento estratégico** (volta a definir após S5!)
 - **Gerenciar**:
-  - Combustível inicial: ~68-70L
+  - Combustível inicial: A DEFINIR após validação de S5
   - Pneus: monitorar degradação
   - Tráfego (se com IA)
   - Mental de corrida (concentração 60min)
   - Estratégia de largada
 - **Executar pit real** (combustível + decidir sobre pneus)
 
-**Validações**:
-- Fuel start: 68-70L (validar com dados de S4)
-- Pit window: Volta 17-19
-- Combustível 2º stint: ~35-40L
-- Pneus: Trocar ou não? (baseado em degradação de S4)
+**Validações (DEPENDEM de S5)**:
+- Fuel start: A DEFINIR (baseado em consumo validado)
+- Pit window: A DEFINIR (baseado em consumo validado)
+- Combustível 2º stint: A DEFINIR
+- Pneus: Trocar ou não? (degradação OK em S4: +0.3s em 13 voltas)
 - Tempo de pit: <28s
 
 ### Parte 2: Coleta de Dados Adversários
@@ -349,20 +363,24 @@
 
 ---
 
-## Estratégia de Corrida Preliminar
+## Estratégia de Corrida Preliminar (⚠️ AGUARDANDO VALIDAÇÃO S5)
 
 ### Configuração Inicial
-- **Combustível**: 68L
-- **Pressão pneus**: A validar (baseado em treinos)
-- **Setup**: Alta velocidade (menos asa)
+- **Combustível**: ⚠️ **A DEFINIR** (dependente de validação S5)
+  - Se consumo 2.6 L/lap: 68L OK
+  - Se consumo 3.5 L/lap: Necessita ajuste de estratégia
+- **Pressão pneus**: ✅ Validadas em S4 (~26.7 PSI hot)
+- **Setup**: ✅ Coach Dave Preload 0 (validado)
 
 ### Pit Stop
-- **Janela**: Volta 17-19 (meio da corrida)
+- **Janela**: ⚠️ **A DEFINIR** (dependente de consumo validado)
+  - Se consumo 2.6 L/lap: Volta 19-20
+  - Se consumo 3.5 L/lap: Volta 17-18 (URGENTE!)
 - **Tempo alvo**: 25-28s (combustível + validar pneus)
-- **Combustível 2º stint**: ~35L
+- **Combustível 2º stint**: ⚠️ **A DEFINIR**
 
-### Pace Alvo
-- **Quali**: 1:28.5 - 1:29.0
+### Pace Alvo (ATUALIZADO com S4)
+- **Quali**: **1:28.3 - 1:28.5** (potencial demonstrado!)
 - **Corrida (stint 1)**: 1:29.5 - 1:30.0
 - **Corrida (stint 2)**: 1:29.5 - 1:30.5 (com combustível)
 
@@ -378,21 +396,23 @@
 
 ### Resultados Reais vs Plano Original
 
-| Métrica | Plano Original (S2) | Real Obtido (S3) | Objetivo Final (S7) | Evolução |
-|---------|---------------------|------------------|---------------------|----------|
-| **Volta completa** | 1:31.0-1:32.0 | **1:28.852** ✅ | 1:28.2-1:28.6 | **-2.1s a -3.3s** ✅ |
-| **S1** | 0:30.5 | **0:22.440** | 0:22.419 | **+0.021s apenas!** ✅✅ |
-| **S2** | 0:37.0 | **0:38.900** ✅ | 0:38.923 ou melhor | **JÁ SUPEROU!** 🔥 |
-| **S3** | 0:24.0 | **0:27.257** ✅ | 0:27.217 ou melhor | **+0.040s apenas!** ✅✅ |
-| **Consistência** | ±0.8s | ±0.415s | ±0.2-0.3s | **Já muito boa** ✅ |
+| Métrica | Plano Original (S2) | Real S3 | Real S4 | Objetivo Final | Evolução Total |
+|---------|---------------------|---------|---------|----------------|----------------|
+| **Volta completa** | 1:31.0-1:32.0 | 1:28.852 ✅ | **1:28.490** 🔥 | 1:28.2-1:28.6 | **-2.5s a -3.7s** ✅✅✅ |
+| **S1** | 0:30.5 | 0:22.440 | **0:22.330** | 0:22.419 | **SUPEROU! (-0.089s)** 🔥 |
+| **S2** | 0:37.0 | 0:38.900 ✅ | **0:38.885** | 0:38.923 | **SUPEROU! (-0.038s)** 🔥 |
+| **S3** | 0:24.0 | 0:27.257 ✅ | **0:27.195** | 0:27.217 | **SUPEROU! (-0.022s)** 🔥 |
+| **Consistência** | ±0.8s | ±0.415s | **±0.202s** | ±0.2-0.3s | **SUPEROU META!** ✅✅ |
 
 **Análise**:
-- 🔥 Progresso EXCEPCIONAL! Todos os setores agora estão muito próximos do target
-- ✅ S2 já superou target objetivo (0:38.900 vs 0:38.923)
-- ✅ S1 faltam apenas +0.021s (99.9% do target!)
-- ✅ S3 faltam apenas +0.040s (98.5% do target)
-- 🎯 **Potencial combinado**: 1:28.597 (melhores setores de S3)
-- 🎯 Target 1:28.560 **está ao alcance imediato**!
+- 🔥🔥🔥 **TARGET COMPLETAMENTE SUPERADO!** (1:28.490 vs 1:28.560)
+- ✅ **TODOS OS 3 SETORES superaram target objetivo!**
+  - S1: 104.0% do target (melhor em -0.089s)
+  - S2: 100.4% do target (melhor em -0.038s)
+  - S3: 100.8% do target (melhor em -0.022s)
+- 🎯 **Potencial combinado**: 1:28.410 (melhores setores de S4)
+- 🎯 **Novo objetivo qualifying**: 1:28.3-1:28.5!
+- ⚠️ **CRÍTICO:** Resolver consumo 3.5 L/lap antes da corrida!
 
 ### Progressão por Sessão (Plano Revisado)
 
@@ -400,11 +420,11 @@
 |--------|------|------------|-------|--------|
 | **S1** | Preparação/Reconhecimento | -- | Base | ✅ 1:29.432 |
 | **S2** | Teste Setups (Firedolf vs CDA) | 1:31.0-1:32.0 | Variados | ✅ 1:28.925* |
-| **S3** | Validar Setup + Foco S3 | **1:28.560** 🎯 | CDA Preload 0 | ✅ **1:28.852** 🔥 |
-| **S4** | Consolidação + Stint 30min | 1:28.5-1:29.0 | CDA Preload 0 | ⏳ Próxima |
-| **S5** | Setup Variações | -- | Chuva + Calor | ⏳ Pendente |
-| **S6** | Qualifying Simulation | 1:28.2-1:28.6 | Quali | ⏳ Pendente |
-| **S7** | Race 60min + Adversários | 1:29.0-1:29.5 | Race | ⏳ Pendente |
+| **S3** | Validar Setup + Foco S3 | 1:28.560 🎯 | CDA Preload 0 | ✅ 1:28.852 🔥 |
+| **S4** | Consolidação + Stint 30min | 1:28.5-1:29.0 | CDA Preload 0 | ✅ **1:28.490** 🔥🔥🔥 |
+| **S5** | ⚠️ **VALIDAR CONSUMO** | Ritmo corrida | CDA Preload 0 | ⏳ **URGENTE!** |
+| **S6** | Qualifying Simulation | **1:28.3-1:28.5** | Quali | ⏳ Pendente |
+| **S7** | Race 60min + Adversários | 1:29.5-1:30.0 | Race | ⏳ Pendente |
 
 ---
 
@@ -469,8 +489,9 @@
 - ✅ **Potencial combinado**: 1:28.597 (melhores setores)
 
 ### Foco restante:
-- 🎯 **Sessão 4**: Consolidar consistência e stint longo (degradação)
-- 🎯 **Sessões 5-7**: Setups variações, quali simulation e race 60min
+- ✅ **Sessão 4**: CONCLUÍDA - Target superado! Stint longo validado!
+- ⚠️ **Sessão 5**: **URGENTE - Validar consumo de combustível** (3.5 vs 2.6 L/lap)
+- 🎯 **Sessões 6-7**: Quali simulation (1:28.3-1:28.5) e race 60min
 
 ### Setup Status:
 - ✅ **Setup base**: Funcional (S1)
@@ -480,6 +501,6 @@
 
 ---
 
-**Status**: ✅ 3 de 7 sessões concluídas - Progresso EXCEPCIONAL!
-**Última atualização**: 2025-10-25
-**Próximo passo**: Sessão 4 - Consolidação + Stint Longo (30min) para validar consistência e degradação
+**Status**: ✅ 4 de 7 sessões concluídas - **TARGET SUPERADO!** Progresso EXTRAORDINÁRIO!
+**Última atualização**: 2025-10-27 (Pós-Sessão 4)
+**Próximo passo**: ⚠️ **URGENTE** - Sessão 5: Validar consumo de combustível em ritmo de corrida (resolver 3.5 L/lap)
