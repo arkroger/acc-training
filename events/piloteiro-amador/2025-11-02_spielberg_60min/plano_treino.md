@@ -354,57 +354,65 @@
 
 ---
 
-## Sessão 7 – Race Simulation (60min) + Análise Adversários
+## Sessão 7 – Treino de Chuva (Medium + Heavy Rain) ✅ CONCLUÍDA
 
-**⚠️ PRÉ-REQUISITO:** Sessão 5 (validação de consumo) DEVE estar concluída!
+**Status**: ✅ Concluída (30/10/2025)
+**Resultado**: Experiência valiosa em condições de chuva. Medium rain excelente, heavy rain desafiador.
 
-**Objetivo**: Corrida completa + primeira análise de adversários
+**Objetivo Original**: Race simulation 60min + análise adversários
+**Realizado**: Treino de adaptação para condições de chuva (2 stints)
 
-**Setup**: `CDA_22_25.json` (Preload 0 - validado)
+**Condições**: WET (Medium Rain → Heavy Rain)
 
-**Atividades**:
+**Resultados Obtidos**:
 
-### Parte 1: Race Simulation Completa (60min)
-- Corrida de 60min exatamente
-- **Pitstop no momento estratégico** (volta a definir após S5!)
-- **Gerenciar**:
-  - Combustível inicial: A DEFINIR após validação de S5
-  - Pneus: monitorar degradação
-  - Tráfego (se com IA)
-  - Mental de corrida (concentração 60min)
-  - Estratégia de largada
-- **Executar pit real** (combustível + decidir sobre pneus)
+### Stint 1 - Medium Rain:
+- Melhor volta: **1:36.090** (Lap 5)
+- Voltas válidas: 6/7 (85.7%)
+- Condições: MEDIUM RAIN (estável)
+- Pressões: ~30.0 PSI (hot) ✅
+- Temperatura pneus: 47-50°C ✅
+- Comparação vs seco: **+7.6s (+8.6%)**
 
-**Validações (DEPENDEM de S5)**:
-- Fuel start: A DEFINIR (baseado em consumo validado)
-- Pit window: A DEFINIR (baseado em consumo validado)
-- Combustível 2º stint: A DEFINIR
-- Pneus: Trocar ou não? (degradação OK em S4: +0.3s em 13 voltas)
-- Tempo de pit: <28s
+### Stint 2 - Heavy Rain:
+- Melhor volta: **1:42.600**
+- Condições: HEAVY RAIN
+- Pressões: ~29.5 PSI (hot) ✅
+- Comparação vs medium: **+6.5s (+6.8%)**
+- Comparação vs seco: **+14.1s (+16.0%)**
 
-### Parte 2: Coleta de Dados Adversários
-**IMPORTANTE: SOMENTE nesta sessão coletar dados de adversários**
+**Setup usado**: CDA_22_25.json + ajustes para chuva
+- ✅ Altura frente/traseira: +3/+4 clicks
+- ✅ ARB dianteiro: -1 click (amolecido)
+- ✅ Toe dianteiro: +0.03
+- ⚠️ Asa dianteira: Não ajustada (Audi R8 não permite alteração)
 
-- **Exportar dados de**:
-  - **Rival principal** (concorrente direto campeonato)
-  - **Silver** (referência classe)
-  - **PRO/P1** (se disponível, para benchmark)
-- Salvar como: `race_oficial_rival.json`, `race_oficial_silver.json`, etc.
-- Análise posterior por Claude
+**Análise**:
+- ✅ **Medium rain excelente:** 1:36.090 é tempo competitivo
+- ✅ **Adaptação rápida:** Progressão 1:37.0 → 1:36.0 em 4 voltas
+- ✅ **Consistência:** 6/7 válidas (85.7%)
+- ✅ **Setup funcional:** Pressões e temperaturas perfeitas
+- ✅ **Pilotagem limpa:** Sem danos em ambos stints
+- ⚠️ **Heavy rain desafiador:** 1:42.6 razoável mas pode melhorar
+- ⚠️ **Understeer persistiu:** Asa fixa limitou ajustes aerodinâmicos
+- ⚠️ **S2 mais afetado:** +3.1s vs seco (T4 off-camber crítica)
 
-**Meta**:
-- **60min sem erros graves**
-- Pit strategy executada conforme planejado
-- **Pace médio**: **1:29.0-1:29.5** (consistente)
-- Mental e concentração testados
-- **Dados de adversários coletados** ✅
+**Curvas críticas identificadas na chuva:**
+1. T4 (Wurth) - Off-camber + descida = mais difícil
+2. T3 (Remus) - Subida + understeer severo
+3. T9 (Chicane) - Meio-fio azul escorregadio
 
-**Análise pós-sessão**:
-- Onde rival é mais rápido por setor?
-- Onde você perde/ganha tempo?
-- Estratégia de defesa/ataque para corrida oficial
-- Pit window comparativo (quando adversários param?)
-- Ritmo de degradação comparado
+**Entregas**:
+- ✅ Experiência valiosa em condições de chuva
+- ✅ Setup base para chuva validado (ARB -1, Toe +0.03, Altura +3)
+- ✅ Pressões wet tyres confirmadas: 29.5-30.0 PSI
+- ✅ Identificação de curvas críticas
+- ✅ Baseline estabelecido: Medium 1:36, Heavy 1:42
+- ⚠️ Limitação identificada: Asa fixa no Audi R8
+
+**Relatório completo**: `reports/treino7.md`
+
+**Observação**: Sessão 7 adaptada de race simulation para treino de chuva. Race simulation 60min ficará para próxima oportunidade ou será diretamente na corrida oficial (se condições secas).
 
 ---
 
@@ -472,13 +480,14 @@
 | **S4** | Consolidação + Stint 30min | 1:28.5-1:29.0 | CDA Preload 0 | ✅ **1:28.490** 🔥🔥🔥 |
 | **S5** | ✅ **VALIDAR CONSUMO** | Ritmo corrida | CDA Preload 0 | ✅ **2.55 L/lap** ✅✅✅ |
 | **S6** | Qualifying + Race com Bots | **1:28.3-1:28.5** | Quali | ✅ **1:28.497** 🔥🔥🔥 **META!** |
-| **S7** | Race 60min + Adversários | 1:29.0-1:29.5 | Race | ⏳ **PRÓXIMA!** |
+| **S7** | Treino de Chuva | Medium/Heavy | CDA + Rain | ✅ **1:36.0 / 1:42.6** 🌧️ |
 
-**Evolução S1→S6:**
-- Melhor tempo: 1:29.432 (S1) → **1:28.349** (S6 potencial) = **-1.083s** (-1.2%)
-- Qualifying: **1:28.497** (S6) → **META ATINGIDA!** ✅
-- Race pace: **1:28.692** (S6 melhor lap) / **1:29.145** (média)
-- Nível: "Baseline" → **"Pro/Semi-Pro (Top 5-8%)"** 🏆
+**Evolução S1→S7:**
+- **Seco:** 1:29.432 (S1) → **1:28.349** (S6 potencial) = **-1.083s** (-1.2%)
+- **Qualifying:** **1:28.497** (S6) → **META ATINGIDA!** ✅
+- **Race pace:** **1:28.692** (S6 melhor lap) / **1:29.145** (média)
+- **Chuva:** Medium 1:36.090 / Heavy 1:42.600 (S7) 🌧️
+- **Nível:** "Baseline" → **"Pro/Semi-Pro (Top 5-8%)"** 🏆
 
 ---
 
@@ -531,7 +540,9 @@
 
 🔥🔥🔥 **TODAS AS METAS ALCANÇADAS!** Qualifying meta atingida, nível Pro confirmado!
 
-### Conquistas Completas (S1-S6):
+### Conquistas Completas (S1-S7):
+
+**Condições Secas (S1-S6):**
 - ✅ **S1**: 1:29.432 → Baseline estabelecido
 - ✅ **S2**: 1:28.925 inválida → Setup Coach Dave identificado como superior
 - ✅ **S3**: 1:28.852 válida → Setup Preload 0 validado
@@ -548,6 +559,15 @@
 - ✅ **Consumo race confirmado**: 2.60 L/lap (S6 valida S5)
 - ✅ **Race pace demonstrado**: 1:28.692 melhor / 1:29.145 média
 
+**Condições de Chuva (S7):**
+- ✅ **S7**: Treino de chuva completo
+- ✅ **Medium rain**: 1:36.090 (+8.6% vs seco) - Excelente!
+- ✅ **Heavy rain**: 1:42.600 (+16.0% vs seco) - Razoável
+- ✅ **Setup chuva validado**: ARB -1, Toe +0.03, Altura +3
+- ✅ **Pressões wet tyres**: 29.5-30.0 PSI (perfeito)
+- ✅ **Curvas críticas identificadas**: T3, T4, T9
+- ⚠️ **Limitação**: Asa dianteira fixa no Audi R8
+
 ### Foco restante:
 - ✅ **Sessão 1**: CONCLUÍDA - Baseline excelente (1:29.432)
 - ✅ **Sessão 2**: CONCLUÍDA - Setup identificado
@@ -555,9 +575,11 @@
 - ✅ **Sessão 4**: CONCLUÍDA - Target superado!
 - ✅ **Sessão 5**: CONCLUÍDA - Consumo validado!
 - ✅ **Sessão 6**: CONCLUÍDA - **META QUALIFYING ATINGIDA!** 🔥🔥🔥
-- 🎯 **Sessão 7**: Race 60min completa + Análise adversários
+- ✅ **Sessão 7**: CONCLUÍDA - Treino de chuva (adaptação)
 
 ### Setup Status:
+
+**Seco:**
 - ✅ **Setup base**: Funcional (S1)
 - ✅ **Setup superior**: Coach Dave identificado (S2)
 - ✅ **Setup testado**: Preload +8, +6, 0 comparados (S3)
@@ -565,7 +587,15 @@
 - ✅ **Qualifying confirmado**: 1:28.497 com setup padrão
 - ✅ **Race confirmado**: 1:28.692-1:29.145 pace com setup padrão
 
+**Chuva:**
+- ✅ **Setup base chuva**: Validado em S7
+- ✅ **Ajustes testados**: ARB -1, Toe +0.03, Altura +3/+4
+- ✅ **Pressões confirmadas**: 29.5-30.0 PSI (wet tyres)
+- ⚠️ **Limitação**: Asa fixa (Audi R8 não permite ajuste aerodinâmico)
+
 ### Estatísticas Finais (Pré-Corrida):
+
+**Seco:**
 - **Evolução total**: -1.083s (1:29.432 → 1:28.349 = 1.2% melhoria)
 - **Gap vs aliens**: 0.849s (99.0% dos aliens)
 - **Percentil ACC**: Top 5-8% (Pro/Semi-Pro) 🏆
@@ -575,9 +605,16 @@
 - **Consumo validado**: 2.55-2.60 L/lap
 - **Estratégia definida**: 68L → pit L21 → 40L
 
+**Chuva:**
+- **Medium rain**: 1:36.090 (+8.6% vs seco)
+- **Heavy rain**: 1:42.600 (+16.0% vs seco)
+- **Consistência**: 85.7% válidas (S7 stint 1)
+- **Pressões wet**: 29.5-30.0 PSI
+- **Curvas críticas**: T3 (+0.5-0.7s), T4 (+1.0-1.5s), T9 (+0.8-1.0s)
+
 ---
 
-**Status**: ✅ **6 de 7 sessões concluídas** - **TODAS AS METAS ATINGIDAS!** 🏆🔥
-**Última atualização**: 2025-10-28 (Pós-Sessão 6)
-**Próximo passo**: Sessão 7: Race 60min completa + Coleta de dados adversários (rival, silver, P1)
-**Piloto pronto para corrida**: ✅ Qualifying pace confirmado, race pace validado, estratégia definida!
+**Status**: ✅ **7 de 7 sessões concluídas** - **TODAS AS METAS ATINGIDAS!** 🏆🔥
+**Última atualização**: 2025-10-30 (Pós-Sessão 7)
+**Próximo passo**: Corrida oficial (02/11/2025)
+**Piloto pronto para corrida**: ✅ Qualifying pace confirmado, race pace validado, estratégia definida, experiência de chuva adquirida!
